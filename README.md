@@ -7,3 +7,5 @@
 - Three finger swipe (in accessibility)
 - Finder Show Path Bar
 - Mission Control: Don't rearrange spaces
+- Change cmd+space to raycast
+- Disable screenshot shortcuts to use clean shot x
