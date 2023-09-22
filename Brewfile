@@ -138,6 +138,8 @@ cask "font-jetbrains-mono-nerd-font"
 cask "geektool"
 # Desktop client for GitHub repositories
 cask "github"
+# Git client focusing on productivity
+cask "gitkraken"
 # Web browser
 cask "google-chrome"
 # Free and open-source media player
