@@ -9,3 +9,6 @@
 - Mission Control: Don't rearrange spaces
 - Change cmd+space to raycast
 - Disable screenshot shortcuts to use clean shot x
+
+To Update Brewfile:
+brew bundle dump --force --describe
