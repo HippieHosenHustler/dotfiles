@@ -11,5 +11,6 @@
 - create:
     - ~/Projects
 
-#- shell:
-#  - [git submodule update --init --recursive, Installing submodules]
+- shell:
+  - [git submodule update --init --recursive, Installing submodules]
+  - ./install_homebrew.zsh
