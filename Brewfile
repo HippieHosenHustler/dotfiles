@@ -40,6 +40,8 @@ brew "lolcat"
 brew "luajit-openresty"
 # Package manager for the Lua programming language
 brew "luarocks"
+# Mac App Store command-line interface
+brew "mas"
 # Cross-platform ncurses Spotify client written in Rust
 brew "ncspot"
 # Robust (fully ACID) transactional property graph database
@@ -204,3 +206,10 @@ cask "visual-studio-code"
 cask "vuze"
 # Video communication and virtual meeting platform
 cask "zoom"
+mas "Dropover", id: 1355679052
+mas "GarageBand", id: 682658836
+mas "iMovie", id: 408981434
+mas "Keynote", id: 409183694
+mas "Numbers", id: 409203825
+mas "Pages", id: 409201541
+mas "Prime Video", id: 545519333
