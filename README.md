@@ -5,4 +5,5 @@
 - Hide/Show Dock
 - Tap to klick (or whatever that was called)
 - Three finger swipe (in accessibility)
-
+- Finder Show Path Bar
+- Mission Control: Don't rearrange spaces
