@@ -7,6 +7,3 @@
 - Three finger swipe (in accessibility)
 - Finder Show Path Bar
 - Mission Control: Don't rearrange spaces
-
-## Stuff to automate
-- brew tap homebrew/cask-fonts
