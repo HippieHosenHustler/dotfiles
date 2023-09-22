@@ -20,3 +20,10 @@
     stderr: true
     description: Install homebrew
     quiet: true
+  -
+    command: ./prepare_homebrew.zsh
+    stdin: true
+    stdout: true
+    stderr: true
+    description: Install homebrew dependencies
+    quiet: true
