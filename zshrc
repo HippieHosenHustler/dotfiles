@@ -23,9 +23,13 @@ alias brewdump='brew bundle dump --force --describe'
 alias trail='<<<${(F)path}'
 alias rm=trash
 
-# Add Locations to $PATH Variable
-export PATH="$N_PREFIX/bin:$PATH"
-export PATH="$PATH:$N_PREFIX/bin"
+# Add Locations to $path array
+typeset -U path
+path=(
+	"$N_PREFIX/bin"
+	$path
+
+)
 
 # Write Handy Functions
 function mkcd() {
