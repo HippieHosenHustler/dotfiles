@@ -12,3 +12,5 @@ else
     n latest
     n lts
 fi
+
+npm i -g @dxatscale/sfp-cli
