@@ -9,6 +9,7 @@ plugins=(git)
 # Syntax highlighting for man pages using bat
 export MANPAGER="sh -c 'col -bx | bat -l man -p'"
 export HOMEBREW_CASK_OPTS="--no-quarantine"
+export N_PREFIX="$HOME/.n"
 
 # Change ZSH Options
 
@@ -18,6 +19,7 @@ alias ls='exa -laFh --git'
 alias exa='exa -laFh --git'
 
 # Add Locations to $PATH Variable
+export PATH="$PATH:$N_PREFIX/bin"
 
 # Write Handy Functions
 function mkcd() {

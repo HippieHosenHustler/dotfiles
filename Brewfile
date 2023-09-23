@@ -42,6 +42,8 @@ brew "luajit-openresty"
 brew "luarocks"
 # Mac App Store command-line interface
 brew "mas"
+# Node version management
+brew "n"
 # Cross-platform ncurses Spotify client written in Rust
 brew "ncspot"
 # Robust (fully ACID) transactional property graph database
@@ -52,8 +54,6 @@ brew "neofetch"
 brew "neovide"
 # Platform built on V8 to build network applications
 brew "node@14"
-# Manage multiple Node.js versions
-brew "nvm"
 # Development kit for the Java programming language
 brew "openjdk@11"
 # Swiss-army knife of markup format conversion
@@ -102,8 +102,6 @@ brew "mongodb/brew/mongodb-community"
 cask "1password"
 # Command-line interface for 1Password
 cask "1password-cli"
-# GPU-accelerated terminal emulator
-cask "alacritty"
 # Chromium based browser
 cask "arc"
 # UI wireframing tool
@@ -213,3 +211,4 @@ mas "Keynote", id: 409183694
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
 mas "Prime Video", id: 545519333
+vscode "withfig.fig"
