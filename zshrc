@@ -24,6 +24,7 @@ alias trail='<<<${(F)path}'
 alias rm=trash
 
 # Add Locations to $PATH Variable
+export PATH="$N_PREFIX/bin:$PATH"
 export PATH="$PATH:$N_PREFIX/bin"
 
 # Write Handy Functions
