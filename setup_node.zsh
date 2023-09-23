@@ -13,4 +13,5 @@ else
     n lts
 fi
 
-npm i -g @dxatscale/sfp-cli
+npm i -g @salesforce/cli
+npm i -g @dxatscale/sfpowerscripts
