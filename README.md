@@ -1,4 +1,7 @@
 # dotfiles
+clone to ~/.dotfiles
+run ~/.dotfiles/install
+enjoy
 
 ## Changes to settings:
 - Dock to the left
@@ -11,4 +14,4 @@
 - Disable screenshot shortcuts to use clean shot x
 
 To Update Brewfile:
-brew bundle dump --force --describe
+brewdump
