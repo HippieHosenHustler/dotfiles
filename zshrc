@@ -17,6 +17,7 @@ export N_PREFIX="$HOME/.n"
 # alias ls='ls -lAFh'
 alias ls='exa -laFh --git'
 alias exa='exa -laFh --git'
+alias cat='bat'
 
 # Add Locations to $PATH Variable
 export PATH="$PATH:$N_PREFIX/bin"
