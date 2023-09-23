@@ -82,6 +82,8 @@ brew "stockfish"
 brew "suite-sparse"
 # Terminal multiplexer
 brew "tmux"
+# CLI tool that moves files or folder to the trash
+brew "trash"
 # Internet file retriever
 brew "wget"
 # JavaScript package manager

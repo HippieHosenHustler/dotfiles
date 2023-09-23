@@ -21,6 +21,7 @@ alias exa='exa -laFh --git'
 alias cat='bat'
 alias brewdump='brew bundle dump --force --describe'
 alias trail='<<<${(F)path}'
+alias rm=trash
 
 # Add Locations to $PATH Variable
 export PATH="$PATH:$N_PREFIX/bin"
