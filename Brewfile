@@ -204,6 +204,8 @@ cask "the-battle-for-wesnoth"
 cask "visual-studio-code"
 # Bit torrent client
 cask "vuze"
+# Native desktop client for WhatsApp
+cask "whatsapp"
 # Video communication and virtual meeting platform
 cask "zoom"
 mas "Dropover", id: 1355679052
