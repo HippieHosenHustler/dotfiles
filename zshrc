@@ -27,6 +27,7 @@ alias rm=trash
 typeset -U path
 path=(
 	"$N_PREFIX/bin"
+	"/opt/homebrew/opt/openjdk@17/bin"
 	$path
 
 )
