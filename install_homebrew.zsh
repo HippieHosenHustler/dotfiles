@@ -2,6 +2,10 @@
 
 echo "\n<<< Starting Homebrew Setup >>>\n"
 
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-
-brew bundle --verbose
+if exists brew; then
+    echo "Homebrew already installed, skipping installation\n"
+else
+    echo "Homebrew not installed yet, installing now\n"
+    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+    brew bundle --verbose
+fi
