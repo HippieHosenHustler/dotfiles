@@ -56,6 +56,8 @@ brew "neovide"
 brew "node@14"
 # Development kit for the Java programming language
 brew "openjdk@11"
+# Development kit for the Java programming language
+brew "openjdk@17"
 # Swiss-army knife of markup format conversion
 brew "pandoc"
 # Object-relational database system
@@ -158,10 +160,8 @@ cask "kindle"
 cask "meetingbar"
 # Provides updates to various Microsoft products
 cask "microsoft-auto-update"
-# Web browser
-cask "microsoft-edge"
-# Office suite
-cask "microsoft-office-businesspro"
+# Meet, chat, call, and collaborate in just one place
+cask "microsoft-teams"
 # Minimal browser that protects privacy
 cask "min"
 # Online collaborative whiteboard platform
@@ -212,7 +212,37 @@ mas "Dropover", id: 1355679052
 mas "GarageBand", id: 682658836
 mas "iMovie", id: 408981434
 mas "Keynote", id: 409183694
+mas "Microsoft Excel", id: 462058435
+mas "Microsoft Outlook", id: 985367838
+mas "Microsoft PowerPoint", id: 462062816
+mas "Microsoft Word", id: 462054704
 mas "Numbers", id: 409203825
+mas "OneDrive", id: 823766827
 mas "Pages", id: 409201541
 mas "Prime Video", id: 545519333
+vscode "1YiB.rust-bundle"
+vscode "allanoricil.salesforce-soql-editor"
+vscode "Catppuccin.catppuccin-vsc"
+vscode "chuckjonas.apex-pmd"
+vscode "DavidAnson.vscode-markdownlint"
+vscode "dbaeumer.vscode-eslint"
+vscode "dustypomerleau.rust-syntax"
+vscode "eamodio.gitlens"
+vscode "esbenp.prettier-vscode"
+vscode "FinancialForce.lana"
+vscode "redhat.vscode-xml"
+vscode "rust-lang.rust-analyzer"
+vscode "salesforce.salesforce-vscode-slds"
+vscode "salesforce.salesforcedx-vscode"
+vscode "salesforce.salesforcedx-vscode-apex"
+vscode "salesforce.salesforcedx-vscode-apex-debugger"
+vscode "salesforce.salesforcedx-vscode-apex-replay-debugger"
+vscode "salesforce.salesforcedx-vscode-core"
+vscode "salesforce.salesforcedx-vscode-expanded"
+vscode "salesforce.salesforcedx-vscode-lightning"
+vscode "salesforce.salesforcedx-vscode-lwc"
+vscode "salesforce.salesforcedx-vscode-soql"
+vscode "salesforce.salesforcedx-vscode-visualforce"
+vscode "serayuzgur.crates"
+vscode "vscodevim.vim"
 vscode "withfig.fig"
