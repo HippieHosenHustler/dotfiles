@@ -26,7 +26,7 @@
     stderr: true
     description: Set zsh as standard non-interactive shell
     quiet: true
-  - command: ./install_homebrew.zsh
+  - command: ./setup_homebrew.zsh
     stdin: true
     stdout: true
     stderr: true

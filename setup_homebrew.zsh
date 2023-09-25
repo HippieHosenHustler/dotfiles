@@ -7,5 +7,6 @@ if exists brew; then
 else
     echo "Homebrew not installed yet, installing now\n"
     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-    brew bundle --verbose
 fi
+
+brew bundle --verbose
