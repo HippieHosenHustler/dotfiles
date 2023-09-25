@@ -1,9 +1,11 @@
 # dotfiles
+
 clone to ~/.dotfiles
 run ~/.dotfiles/install
 enjoy
 
-## Changes to settings:
+## Changes to settings
+
 - Dock to the left
 - Hide/Show Dock
 - Tap to klick (or whatever that was called)
@@ -12,6 +14,8 @@ enjoy
 - Mission Control: Don't rearrange spaces
 - Change cmd+space to raycast
 - Disable screenshot shortcuts to use clean shot x
+- Install Tinkertools manually (no homebrew :()
 
-To Update Brewfile:
+## To Update Brewfile:
+
 brewdump
