@@ -14,6 +14,9 @@
     ~/.config/bat:
       create: true
       path: config/bat
+    ~/.config/nvim:
+      create: true
+      path: nvim
 
 - create:
     - ~/Projects
