@@ -44,3 +44,9 @@
     stderr: true
     description: Setup sfdx
     quiet: true
+  - command: ./setup_rust.zsh
+    stdin: true
+    stdout: true
+    stderr: true
+    description: Setup sfdx
+    quiet: true
