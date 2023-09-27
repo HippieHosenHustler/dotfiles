@@ -68,6 +68,8 @@ brew "pyenv"
 brew "pygobject3"
 # Search tool like grep and The Silver Searcher
 brew "ripgrep"
+# Rust toolchain installer
+brew "rustup-init"
 # Prints a steam locomotive if you type sl instead of ls
 brew "sl"
 # Command-line interface for https://speedtest.net bandwidth tests
@@ -114,6 +116,8 @@ cask "balsamiq-wireframes"
 cask "brave-browser"
 # Workflow and Decision Automation Platform
 cask "camunda-modeler"
+# Managed desktop virtualization solution
+cask "citrix-workspace"
 # Screen capturing tool
 cask "cleanshot"
 # Downloads videos and audio from websites
@@ -156,6 +160,8 @@ cask "iterm2"
 cask "jetbrains-toolbox"
 # Interface for reading and syncing eBooks
 cask "kindle"
+# Software for Logitech devices
+cask "logitech-options"
 # Shows the next meeting in the menu bar
 cask "meetingbar"
 # Provides updates to various Microsoft products
@@ -213,6 +219,7 @@ mas "GarageBand", id: 682658836
 mas "iMovie", id: 408981434
 mas "Keynote", id: 409183694
 mas "Microsoft Excel", id: 462058435
+mas "Microsoft OneNote", id: 784801555
 mas "Microsoft Outlook", id: 985367838
 mas "Microsoft PowerPoint", id: 462062816
 mas "Microsoft Word", id: 462054704

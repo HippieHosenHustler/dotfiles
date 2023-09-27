@@ -2,4 +2,12 @@
 	name = Edwin Scharfe
 	email = 19590601+HippieHosenHustler@users.noreply.github.com
 [safe]
-	directory = /var/folders/kj/7qvr2tgx6t32x5w5t3hjmlk40000gn/T/tmp-2303-xNW5CFI6cNW6
+	directory = /var/folders/kj/7qvr2tgx6t32x5w5t3hjmlk40000gn/T/tmp-5600-HVwh27GzkCi6
+[core]
+	excludesfile = /Users/edwinscharfe/.gitignore_global
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
