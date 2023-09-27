@@ -17,6 +17,7 @@
     ~/.config/nvim:
       create: true
       path: nvim
+    ~/.ideavimrc:
 
 - create:
     - ~/Projects
