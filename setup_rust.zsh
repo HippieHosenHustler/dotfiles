@@ -12,7 +12,11 @@ else
     rustup-init
 fi
 
+rustup target add wasm32-unknown-unknown
+
 cargo install bacon
+cargo install trunk
+cargo install cargo-leptos
 
 echo "\nGlobal Cargo Packages installed: \n"
 cargo install --list
