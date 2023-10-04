@@ -19,7 +19,7 @@ shift + alt + ctrl - k : yabai -m window --warp north
 shift + alt + ctrl - l : yabai -m window --warp east
 
 # rotate tree (never really used) (never really used)
-# ctrl - r : yabai -m space --rotate 90
+ctrl - r : yabai -m space --rotate 90
 
 # toggle window fullscreen zoom
 ctrl - f : yabai -m window --toggle zoom-fullscreen
@@ -32,7 +32,7 @@ ctrl - t : yabai -m window --toggle float;\
           yabai -m window --grid 4:4:1:1:2:2
 
 # toggle window split type
-ctrl - e : yabai -m window --toggle split
+ctrl - s : yabai -m window --toggle split
 
 # balance size of windows
 shift + alt - 0 : yabai -m space --balance
