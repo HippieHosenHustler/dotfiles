@@ -14,6 +14,8 @@ brew "docker"
 brew "emscripten"
 # Modern replacement for 'ls'
 brew "exa"
+# Command-line fuzzy finder written in Go
+brew "fzf"
 # GitHub command-line tool
 brew "gh"
 # GNOME Spreadsheet Application
@@ -86,6 +88,8 @@ brew "stockfish"
 brew "suite-sparse"
 # Terminal multiplexer
 brew "tmux"
+# Manage complex tmux sessions easily
+brew "tmuxinator"
 # CLI tool that moves files or folder to the trash
 brew "trash"
 # Internet file retriever
