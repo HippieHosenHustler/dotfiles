@@ -18,6 +18,9 @@
       create: true
       path: nvim
     ~/.ideavimrc:
+    ~/.local/bin/scripts:
+      create: true
+      path: bin/.local/scripts
 
 - create:
     - ~/Projects
