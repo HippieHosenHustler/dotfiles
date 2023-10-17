@@ -24,7 +24,11 @@ alias brewdump='brew bundle dump --force --describe'
 alias trail='<<<${(F)path}'
 alias rm=trash
 alias vim='nvim'
-alias neo='neovide --neovim-bin lvim'
+alias mux='tmuxinator'
+alias sfpullp='sf project retrieve preview'
+alias sfpull='sf project retrieve start'
+alias sfpush='sf project deploy start'
+alias sfpushp='sf project deploy preview'
 
 # Add Locations to $path array
 typeset -U path
