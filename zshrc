@@ -29,6 +29,8 @@ alias sfpullp='sf project retrieve preview'
 alias sfpull='sf project retrieve start'
 alias sfpush='sf project deploy start'
 alias sfpushp='sf project deploy preview'
+alias sfswitch='sf config set target-org'
+alias grep='rg'
 
 # Add Locations to $path array
 typeset -U path
