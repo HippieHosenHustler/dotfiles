@@ -3,7 +3,7 @@
 	url = https://github.com/anishathalye/dotbot
 	ignore = dirty
 
-[submodule "nvim"]
-	path = nvim
-	url = https://github.com/HippieHosenHustler/nvim
+[submodule "astronvim"]
+	path = nvim/lua/user
+	url = https://HippieHosenHustler/AstroNvimConfig
 	ignore = dirty
