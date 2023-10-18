@@ -4,6 +4,6 @@
 	ignore = dirty
 
 [submodule "astronvim"]
-	path = nvim/lua/user
-	url = https://HippieHosenHustler/AstroNvimConfig
+	path = astronvim
+	url = https://github.com/HippieHosenHustler/AstroNvimConfig
 	ignore = dirty
