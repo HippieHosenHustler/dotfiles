@@ -18,6 +18,8 @@ brew "exa"
 brew "fzf"
 # GitHub command-line tool
 brew "gh"
+# Blazing fast terminal-ui for git written in rust
+brew "gitui"
 # GNOME Spreadsheet Application
 brew "gnumeric"
 # Open source programming language to build simple/reliable/efficient software
