@@ -20,6 +20,9 @@
     ~/.config/tmuxinator:
       create: true
       path: config/tmuxinator
+    ~/.config/alacritty:
+      create: true
+      path: config/alacritty
     ~/.ideavimrc:
     ~/.local/bin/scripts:
       create: true
