@@ -7,3 +7,6 @@
 	path = astronvim
 	url = https://github.com/HippieHosenHustler/AstroNvimConfig
 	ignore = dirty
+[submodule "alacritty-catppuccin"]
+	path = alacritty-catppuccin
+	url = https://github.com/catppuccin/alacritty.git
