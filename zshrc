@@ -57,3 +57,4 @@ export PATH="/usr/local/sbin:$PATH"
 
 # Fig post block. Keep at the bottom of this file.
 [[ -f "$HOME/.fig/shell/zshrc.post.zsh" ]] && builtin source "$HOME/.fig/shell/zshrc.post.zsh"
+export PATH=$PATH:/Users/edwinscharfe/.spicetify
