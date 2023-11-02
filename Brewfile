@@ -2,6 +2,7 @@ tap "homebrew/bundle"
 tap "homebrew/cask-fonts"
 tap "koekeishiya/formulae"
 tap "mongodb/brew"
+tap "spicetify/tap"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
 # Console Matrix
@@ -110,6 +111,8 @@ brew "koekeishiya/formulae/skhd"
 brew "koekeishiya/formulae/yabai"
 # High-performance, schema-free, document-oriented database
 brew "mongodb/brew/mongodb-community"
+# Command-line tool to customize Spotify client
+brew "spicetify/tap/spicetify-cli"
 # Password manager that keeps all passwords secure behind one password
 cask "1password"
 # Command-line interface for 1Password
