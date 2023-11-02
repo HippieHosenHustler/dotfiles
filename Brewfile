@@ -117,6 +117,8 @@ brew "spicetify/tap/spicetify-cli"
 cask "1password"
 # Command-line interface for 1Password
 cask "1password-cli"
+# GPU-accelerated terminal emulator
+cask "alacritty"
 # Chromium based browser
 cask "arc"
 # UI wireframing tool
@@ -199,6 +201,8 @@ cask "postman"
 cask "raspberry-pi-imager"
 # Control your tools with a few keystrokes
 cask "raycast"
+# App that enables mouse-free UI interaction
+cask "shortcat"
 # Instant messaging application focusing on security
 cask "signal"
 # Team communication and collaboration software
@@ -223,6 +227,8 @@ cask "visual-studio-code"
 cask "vuze"
 # Native desktop client for WhatsApp
 cask "whatsapp"
+# Tax declaration for the fiscal year 2022
+cask "wiso-steuer-2023"
 # Video communication and virtual meeting platform
 cask "zoom"
 mas "Dropover", id: 1355679052
