@@ -14,9 +14,9 @@
     ~/.config/bat:
       create: true
       path: config/bat
-    ~/.config/nvim/lua/user:
+    ~/.config/nvim:
       create: true
-      path: astronvim
+      path: nvim
     ~/.config/tmuxinator:
       create: true
       path: config/tmuxinator

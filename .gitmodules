@@ -3,10 +3,9 @@
 	url = https://github.com/anishathalye/dotbot
 	ignore = dirty
 
-[submodule "astronvim"]
-	path = astronvim
-	url = https://github.com/HippieHosenHustler/AstroNvimConfig
-	ignore = dirty
 [submodule "alacritty-catppuccin"]
 	path = alacritty-catppuccin
 	url = https://github.com/catppuccin/alacritty.git
+[submodule "nvim"]
+	path = nvim
+	url = https://github.com/HippieHosenHustler/nvim
