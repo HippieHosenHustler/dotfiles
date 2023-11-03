@@ -30,6 +30,9 @@
     ~/.local/bin/scripts:
       create: true
       path: bin/.local/scripts
+    ~/.tmux/plugins/tpm:
+      create: true
+      path: tmux/plugins/tpm
 
 - create:
     - ~/Projects
