@@ -27,10 +27,13 @@ alias vim='nvim'
 alias mux='tmuxinator'
 alias sfpullp='sf project retrieve preview'
 alias sfpull='sf project retrieve start'
+alias sfpullf='sf project retrieve start --ignore-conflicts'
 alias sfpush='sf project deploy start'
+alias sfpushf='sf project deploy start --ignore-conflicts --ignore-warnings'
 alias sfpushp='sf project deploy preview'
 alias sfswitch='sf config set target-org'
 alias grep='rg'
+alias spiceup='spicetify restore backup apply'
 
 # Add Locations to $path array
 typeset -U path
