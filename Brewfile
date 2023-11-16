@@ -19,8 +19,6 @@ brew "exa"
 brew "fzf"
 # GitHub command-line tool
 brew "gh"
-# Blazing fast terminal-ui for git written in rust
-brew "gitui"
 # GNOME Spreadsheet Application
 brew "gnumeric"
 # Open source programming language to build simple/reliable/efficient software
@@ -79,10 +77,6 @@ brew "rustup-init"
 brew "sl"
 # Command-line interface for https://speedtest.net bandwidth tests
 brew "speedtest-cli"
-# Terminal-based client for Spotify
-brew "spotify-tui"
-# Spotify daemon
-brew "spotifyd"
 # Cross-shell prompt for astronauts
 brew "starship"
 # Strong open-source chess engine
@@ -101,8 +95,6 @@ brew "wget"
 brew "yarn"
 # Fork of youtube-dl with additional features and fixes
 brew "yt-dlp"
-# Pluggable terminal workspace, with terminal multiplexer as the base feature
-brew "zellij"
 # UNIX shell (command interpreter)
 brew "zsh"
 # Simple hotkey-daemon for macOS.
@@ -165,10 +157,6 @@ cask "google-chrome"
 cask "iina"
 # Tool to optimize images to a smaller size
 cask "imageoptim"
-# Terminal emulator as alternative to Apple's Terminal app
-cask "iterm2"
-# JetBrains tools manager
-cask "jetbrains-toolbox"
 # Interface for reading and syncing eBooks
 cask "kindle"
 # Software for Logitech devices
