@@ -13,7 +13,6 @@ window:
   dynamic_padding: true
   decorations: buttonless
   opacity: 0.9
-  option_as_alt: Both
 
 # Sample Font configuration for font: Monoid.
 # Feel free to use different font configuration family & face for each sections
