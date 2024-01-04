@@ -15,6 +15,7 @@ enjoy
 - Change cmd+space to raycast
 - Disable screenshot shortcuts to use clean shot x
 - Install Tinkertools manually (no homebrew :()
+- Set keyboard Layout to EurKey (remember to switch z and y, and move on the left cmd and opt)
 
 ## To Update Brewfile:
 

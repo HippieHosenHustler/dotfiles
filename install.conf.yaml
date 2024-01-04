@@ -33,6 +33,8 @@
     ~/.tmux/plugins/tpm:
       create: true
       path: tmux/plugins/tpm
+    /Library/Keyboard\ Layouts/EurKEY.icns: EurKEY-Mac/EurKEY.icns
+    /Library/Keyboard\ Layouts/EurKEY.keylayout: EurKEY-Mac/EurKEY.keylayout
 
 - create:
     - ~/Projects
