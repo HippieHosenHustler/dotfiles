@@ -115,6 +115,8 @@ cask "alacritty"
 cask "arc"
 # UI wireframing tool
 cask "balsamiq-wireframes"
+# Menu bar icon organizer
+cask "bartender"
 # Web browser focusing on privacy
 cask "brave-browser"
 # Workflow and Decision Automation Platform
@@ -153,14 +155,22 @@ cask "github"
 cask "gitkraken"
 # Web browser
 cask "google-chrome"
+# Open-source video transcoder
+cask "handbrake"
 # Free and open-source media player
 cask "iina"
 # Tool to optimize images to a smaller size
 cask "imageoptim"
+# IDE for Java development - community edition
+cask "intellij-idea-ce"
 # Interface for reading and syncing eBooks
 cask "kindle"
+# Multiplayer online battle arena game
+cask "league-of-legends"
 # Software for Logitech devices
 cask "logitech-options"
+# Privacy-first, open-source platform for knowledge sharing and management
+cask "logseq"
 # Shows the next meeting in the menu bar
 cask "meetingbar"
 # Provides updates to various Microsoft products
@@ -211,12 +221,16 @@ cask "textmate"
 cask "the-battle-for-wesnoth"
 # Open-source code editor
 cask "visual-studio-code"
+# Binary releases of VS Code without MS branding/telemetry/licensing
+cask "vscodium"
 # Bit torrent client
 cask "vuze"
 # Native desktop client for WhatsApp
 cask "whatsapp"
 # Tax declaration for the fiscal year 2022
 cask "wiso-steuer-2023"
+# Mind mapping and brainstorming tool
+cask "xmind"
 # Video communication and virtual meeting platform
 cask "zoom"
 mas "Dropover", id: 1355679052
@@ -232,6 +246,7 @@ mas "Numbers", id: 409203825
 mas "OneDrive", id: 823766827
 mas "Pages", id: 409201541
 mas "Prime Video", id: 545519333
+mas "Xcode", id: 497799835
 vscode "1YiB.rust-bundle"
 vscode "allanoricil.salesforce-soql-editor"
 vscode "Catppuccin.catppuccin-vsc"
