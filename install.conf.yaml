@@ -71,3 +71,9 @@
     stderr: true
     description: Setup sfdx
     quiet: true
+  - command: ./set_defaults.zsh
+    stdin: true
+    stdout: true
+    stderr: true
+    description: Set settings the way I like them
+    quiet: true
