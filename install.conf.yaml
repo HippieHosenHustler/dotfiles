@@ -33,6 +33,9 @@
     ~/.tmux/plugins/tpm:
       create: true
       path: tmux/plugins/tpm
+    ~/.config/sketchybar:
+      create: true
+      path: config/sketchybar
     /Library/Keyboard\ Layouts/EurKEY.icns: EurKEY-Mac/EurKEY.icns
     /Library/Keyboard\ Layouts/EurKEY.keylayout: EurKEY-Mac/EurKEY.keylayout
 

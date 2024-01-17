@@ -1,5 +1,7 @@
+tap "felixkratz/formulae"
 tap "homebrew/bundle"
 tap "homebrew/cask-fonts"
+tap "homebrew/services"
 tap "koekeishiya/formulae"
 tap "mongodb/brew"
 tap "spicetify/tap"
@@ -97,6 +99,8 @@ brew "yarn"
 brew "yt-dlp"
 # UNIX shell (command interpreter)
 brew "zsh"
+# Custom macOS statusbar with shell plugin, interaction and graph support
+brew "felixkratz/formulae/sketchybar"
 # Simple hotkey-daemon for macOS.
 brew "koekeishiya/formulae/skhd"
 # A tiling window manager for macOS based on binary space partitioning.

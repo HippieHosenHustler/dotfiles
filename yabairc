@@ -49,4 +49,6 @@ yabai -m rule --add app="^1Passowrd$" manage=off
 yabai -m rule --add app="^Raycast$" manage=off
 yabai -m rule --add app="^Citrix Viewer$" manage=off
 
+yabai -m config external_bar all:32:0
+
 echo "yabai configuration loaded.."

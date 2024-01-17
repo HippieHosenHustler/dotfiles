@@ -58,6 +58,7 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 export PATH="/usr/local/sbin:$PATH"
 
+export PATH=$PATH:/Users/edwinscharfe/.spicetify
+
 # Fig post block. Keep at the bottom of this file.
 [[ -f "$HOME/.fig/shell/zshrc.post.zsh" ]] && builtin source "$HOME/.fig/shell/zshrc.post.zsh"
-export PATH=$PATH:/Users/edwinscharfe/.spicetify
