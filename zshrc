@@ -49,6 +49,10 @@ function mkcd() {
 	mkdir -p "$@" && cd "$_";
 }
 
+wallpaper () {
+	automator -i "${1}" ~/.dotfiles/automations/SetDesktopWallpaper.workflow
+}
+
 # Use ZSH Plugins
 
 # ...and other Surprises
