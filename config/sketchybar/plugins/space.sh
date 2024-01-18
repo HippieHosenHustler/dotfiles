@@ -8,11 +8,11 @@ source "$CONFIG_DIR/colors.sh" # Loads all defined colors
 
 if [ $SELECTED = true ]; then
   sketchybar --set $NAME background.drawing=on \
-                         background.color=$ACCENT_COLOR \
-                         label.color=$BAR_COLOR \
-                         icon.color=$BAR_COLOR
+                         background.color=$OVERLAY0 \
+                         label.color=$BASE \
+                         icon.color=$BASE
 else
   sketchybar --set $NAME background.drawing=off \
-                         label.color=$ACCENT_COLOR \
-                         icon.color=$ACCENT_COLOR
+                         label.color=$BLUE \
+                         icon.color=$BLUE
 fi
