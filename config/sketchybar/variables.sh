@@ -1,0 +1,69 @@
+#!/usr/bin/env sh
+
+# Color Palette
+# Tokyonight Night
+
+ROSEWATER=0xfff4dbd6
+FLAMINGO=0xfff0c6c6
+PINK=0xfff5bde6
+MAUVE=0xffc6a0f6
+RED=0xffed8796
+MAROON=0xffee99a0
+PEACH=0xfff5a97f
+YELLOW=0xffeed49f
+GREEN=0xffa6da95
+TEAL=0xff8bd5ca
+SKY=0xff91d7e3
+SAPPHIRE=0xff7dc4e4
+BLUE=0xff8aadf4
+LAVENDER=0xffb7bdf8
+TEXT=0xffcad3f5
+SUBTEXT1=0xffb8c0e0
+SUBTEXT0=0xffa5adcb
+OVERLAY2=0xff939ab7
+OVERLAY1=0xff8087a2
+OVERLAY0=0xff6e738d
+SURFACE2=0xff5b6078
+SURFACE1=0xff494d64
+SURFACE0=0xff363a4f
+BASE=0xff24273a
+MANTLE=0xff1e2030
+CRUST=0xff181926
+
+BAR_COLOR=$CRUST
+COMMENT=$SUBTEXT0
+
+# Tokyonight Day
+# BLACK=0xffe9e9ed
+# WHITE=0xff3760bf
+# MAGENTA=0xff9854f1
+# BLUE=0xff2e7de9
+# CYAN=0xff007197
+# GREEN=0xff587539
+# YELLOW=0xff8c6c3e
+# ORANGE=0xffb15c00
+# RED=0xfff52a65
+# BAR_COLOR=0xffe1e2e7
+
+TRANSPARENT=0x00000000
+
+# General bar colors
+ICON_COLOR=$TEXT  # Color of all icons
+LABEL_COLOR=$TEXT # Color of all labels
+
+ITEM_DIR="$HOME/.config/sketchybar/items"
+PLUGIN_DIR="$HOME/.config/sketchybar/plugins"
+
+FONT="JetBrainsMono Nerd Font"
+
+PADDINGS=3
+
+POPUP_BORDER_WIDTH=2
+POPUP_CORNER_RADIUS=11
+POPUP_BACKGROUND_COLOR=$CRUST
+POPUP_BORDER_COLOR=$COMMENT
+
+CORNER_RADIUS=15
+BORDER_WIDTH=2
+
+SHADOW=on
