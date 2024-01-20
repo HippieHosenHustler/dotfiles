@@ -151,6 +151,8 @@ cask "font-hack-nerd-font"
 cask "font-jetbrains-mono"
 # Developer targeted fonts with a high number of glyphs
 cask "font-jetbrains-mono-nerd-font"
+# Sans-serif variant of "San Francisco" by Apple
+cask "font-sf-pro"
 # Desktop customization tool
 cask "geektool"
 # Desktop client for GitHub repositories
@@ -245,11 +247,14 @@ mas "Microsoft Excel", id: 462058435
 mas "Microsoft OneNote", id: 784801555
 mas "Microsoft Outlook", id: 985367838
 mas "Microsoft PowerPoint", id: 462062816
+mas "Microsoft To Do", id: 1274495053
 mas "Microsoft Word", id: 462054704
 mas "Numbers", id: 409203825
 mas "OneDrive", id: 823766827
 mas "Pages", id: 409201541
 mas "Prime Video", id: 545519333
+mas "Streaks", id: 963034692
+mas "Structured", id: 1499198946
 mas "Xcode", id: 497799835
 vscode "1YiB.rust-bundle"
 vscode "allanoricil.salesforce-soql-editor"
