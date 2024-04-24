@@ -38,6 +38,8 @@
       path: config/sketchybar
     /Library/Keyboard\ Layouts/EurKEY.icns: EurKEY-Mac/EurKEY.icns
     /Library/Keyboard\ Layouts/EurKEY.keylayout: EurKEY-Mac/EurKEY.keylayout
+    /Library/Application Support/VSCodium/User/settings.json:
+
 
 - create:
     - ~/Projects
@@ -79,4 +81,10 @@
     stdout: true
     stderr: true
     description: Set settings the way I like them
+    quiet: true
+  - command: ./install_vscodium_extensions.zsh
+    stdin: true
+    stdout: true
+    stderr: true
+    description: Install extensions for vscodium
     quiet: true
