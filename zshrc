@@ -6,6 +6,7 @@ ZSH_THEME="crunch"
 plugins=(git)
 
 # Set Variables
+export JAVA_HOME="/opt/homebrew/opt/openjdk@17/bin"
 # Syntax highlighting for man pages using bat
 export MANPAGER="sh -c 'col -bx | bat -l man -p'"
 export HOMEBREW_CASK_OPTS="--no-quarantine"
@@ -66,3 +67,5 @@ export PATH=$PATH:/Users/edwinscharfe/.spicetify
 
 # Fig post block. Keep at the bottom of this file.
 [[ -f "$HOME/.fig/shell/zshrc.post.zsh" ]] && builtin source "$HOME/.fig/shell/zshrc.post.zsh"
+
+eval "$(zoxide init --cmd cd zsh)"
