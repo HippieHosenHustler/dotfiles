@@ -4,6 +4,7 @@ tap "homebrew/cask-fonts"
 tap "homebrew/services"
 tap "koekeishiya/formulae"
 tap "mongodb/brew"
+tap "pkgxdev/made"
 tap "spicetify/tap"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
@@ -13,6 +14,8 @@ brew "cmatrix"
 brew "composer"
 # Pack, ship and run any application as a lightweight container
 brew "docker"
+# .NET Core
+brew "dotnet"
 # LLVM bytecode to JavaScript compiler
 brew "emscripten"
 # Modern replacement for 'ls'
@@ -91,12 +94,18 @@ brew "tmux"
 brew "tmuxinator"
 # CLI tool that moves files or folder to the trash
 brew "trash"
+# Display directories as trees (with optional color/HTML output)
+brew "tree"
 # Internet file retriever
 brew "wget"
+# Play wordle in command-line
+brew "wordle"
 # JavaScript package manager
 brew "yarn"
-# Fork of youtube-dl with additional features and fixes
+# Feature-rich command-line audio/video downloader
 brew "yt-dlp"
+# Shell extension to navigate your filesystem faster
+brew "zoxide"
 # UNIX shell (command interpreter)
 brew "zsh"
 # Custom macOS statusbar with shell plugin, interaction and graph support
@@ -107,6 +116,8 @@ brew "koekeishiya/formulae/skhd"
 brew "koekeishiya/formulae/yabai"
 # High-performance, schema-free, document-oriented database
 brew "mongodb/brew/mongodb-community"
+# Run Anything
+brew "pkgxdev/made/pkgx"
 # Command-line tool to customize Spotify client
 brew "spicetify/tap/spicetify-cli"
 # Password manager that keeps all passwords secure behind one password
@@ -119,10 +130,10 @@ cask "alacritty"
 cask "arc"
 # UI wireframing tool
 cask "balsamiq-wireframes"
-# Menu bar icon organizer
+# Menu bar icon organiser
 cask "bartender"
-# Web browser focusing on privacy
-cask "brave-browser"
+# 3D creation suite
+cask "blender"
 # Workflow and Decision Automation Platform
 cask "camunda-modeler"
 # Managed desktop virtualization solution
@@ -153,46 +164,40 @@ cask "font-jetbrains-mono"
 cask "font-jetbrains-mono-nerd-font"
 # Sans-serif variant of "San Francisco" by Apple
 cask "font-sf-pro"
-# Desktop customization tool
-cask "geektool"
 # Desktop client for GitHub repositories
 cask "github"
 # Git client focusing on productivity
 cask "gitkraken"
 # Web browser
 cask "google-chrome"
+# Open Source Multimedia Framework
+cask "gstreamer-runtime"
 # Open-source video transcoder
 cask "handbrake"
 # Free and open-source media player
 cask "iina"
-# Tool to optimize images to a smaller size
+# Tool to optimise images to a smaller size
 cask "imageoptim"
-# IDE for Java development - community edition
-cask "intellij-idea-ce"
 # Interface for reading and syncing eBooks
 cask "kindle"
-# Multiplayer online battle arena game
-cask "league-of-legends"
 # Software for Logitech devices
 cask "logitech-options"
-# Privacy-first, open-source platform for knowledge sharing and management
-cask "logseq"
+# App for designing HTML5 Scalable Vector Graphics
+cask "macsvg"
+# Extensible two-pane file manager
+cask "marta"
 # Shows the next meeting in the menu bar
 cask "meetingbar"
 # Provides updates to various Microsoft products
 cask "microsoft-auto-update"
 # Meet, chat, call, and collaborate in just one place
 cask "microsoft-teams"
-# Minimal browser that protects privacy
-cask "min"
 # Online collaborative whiteboard platform
 cask "miro"
 # CSV editor
 cask "modern-csv"
 # VPN client for secure internet access and private browsing
 cask "nordvpn"
-# App to write, plan, collaborate, and get organized
-cask "notion"
 # Knowledge base that works on top of a local folder of plain text Markdown files
 cask "obsidian"
 # GUI prototyping tool
@@ -205,6 +210,8 @@ cask "postman"
 cask "raspberry-pi-imager"
 # Control your tools with a few keystrokes
 cask "raycast"
+# .NET IDE
+cask "rider"
 # App that enables mouse-free UI interaction
 cask "shortcat"
 # Instant messaging application focusing on security
@@ -225,18 +232,24 @@ cask "telegram"
 cask "textmate"
 # Fantasy-themed turn-based strategy game
 cask "the-battle-for-wesnoth"
-# Open-source code editor
-cask "visual-studio-code"
+# Platform for 3D content
+cask "unity"
+# Management tool for Unity
+cask "unity-hub"
 # Binary releases of VS Code without MS branding/telemetry/licensing
 cask "vscodium"
 # Bit torrent client
 cask "vuze"
 # Native desktop client for WhatsApp
 cask "whatsapp"
+# Compatibility layer to run Windows applications
+cask "wine-stable"
 # Tax declaration for the fiscal year 2022
 cask "wiso-steuer-2023"
 # Mind mapping and brainstorming tool
 cask "xmind"
+# Multiplayer code editor
+cask "zed"
 # Video communication and virtual meeting platform
 cask "zoom"
 mas "Dropover", id: 1355679052
@@ -254,34 +267,4 @@ mas "OneDrive", id: 823766827
 mas "Pages", id: 409201541
 mas "Prime Video", id: 545519333
 mas "Streaks", id: 963034692
-mas "Structured", id: 1499198946
 mas "Xcode", id: 497799835
-vscode "1YiB.rust-bundle"
-vscode "allanoricil.salesforce-soql-editor"
-vscode "Catppuccin.catppuccin-vsc"
-vscode "chuckjonas.apex-pmd"
-vscode "DavidAnson.vscode-markdownlint"
-vscode "dbaeumer.vscode-eslint"
-vscode "dustypomerleau.rust-syntax"
-vscode "eamodio.gitlens"
-vscode "esbenp.prettier-vscode"
-vscode "FinancialForce.lana"
-vscode "mechatroner.rainbow-csv"
-vscode "redhat.vscode-xml"
-vscode "rust-lang.rust-analyzer"
-vscode "salesforce.salesforce-vscode-slds"
-vscode "salesforce.salesforcedx-einstein-gpt"
-vscode "salesforce.salesforcedx-vscode"
-vscode "salesforce.salesforcedx-vscode-apex"
-vscode "salesforce.salesforcedx-vscode-apex-debugger"
-vscode "salesforce.salesforcedx-vscode-apex-replay-debugger"
-vscode "salesforce.salesforcedx-vscode-core"
-vscode "salesforce.salesforcedx-vscode-expanded"
-vscode "salesforce.salesforcedx-vscode-lightning"
-vscode "salesforce.salesforcedx-vscode-lwc"
-vscode "salesforce.salesforcedx-vscode-soql"
-vscode "salesforce.salesforcedx-vscode-visualforce"
-vscode "salesforce.sfdx-code-analyzer-vscode"
-vscode "serayuzgur.crates"
-vscode "vscodevim.vim"
-vscode "withfig.fig"
