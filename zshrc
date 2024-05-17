@@ -1,10 +1,3 @@
-# Fig pre block. Keep at the top of this file.
-[[ -f "$HOME/.fig/shell/zshrc.pre.zsh" ]] && builtin source "$HOME/.fig/shell/zshrc.pre.zsh"
-eval "$(starship init zsh)"
-
-ZSH_THEME="crunch"
-plugins=(git)
-
 # Set Variables
 export JAVA_HOME="/opt/homebrew/opt/openjdk@17/bin"
 # Syntax highlighting for man pages using bat
@@ -44,6 +37,7 @@ path=(
 	$path
 
 )
+export PATH=$PATH:/Users/edwinscharfe/.spicetify
 
 # Write Handy Functions
 function mkcd() {
@@ -54,18 +48,5 @@ wallpaper () {
 	automator -i "${1}" ~/.dotfiles/automations/SetDesktopWallpaper.workflow
 }
 
-# Use ZSH Plugins
 
-# ...and other Surprises
 
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-export PATH="/usr/local/sbin:$PATH"
-
-export PATH=$PATH:/Users/edwinscharfe/.spicetify
-
-# Fig post block. Keep at the bottom of this file.
-[[ -f "$HOME/.fig/shell/zshrc.post.zsh" ]] && builtin source "$HOME/.fig/shell/zshrc.post.zsh"
-
-eval "$(zoxide init --cmd cd zsh)"
