@@ -11,6 +11,7 @@
     ~/.skhdrc:
     ~/.yabairc:
     ~/.tmux.conf:
+    ~/.p10k.zsh:
     ~/.config/bat:
       create: true
       path: config/bat
