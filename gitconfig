@@ -2,9 +2,10 @@
 	name = Edwin Scharfe
 	email = 19590601+HippieHosenHustler@users.noreply.github.com
 [safe]
-	directory = /var/folders/kj/7qvr2tgx6t32x5w5t3hjmlk40000gn/T/tmp-58321-CypRCE0lQOBb
+	directory = /var/folders/kj/7qvr2tgx6t32x5w5t3hjmlk40000gn/T/tmp-87695-tcHatxmJCOz1
 [core]
 	excludesfile = /Users/edwinscharfe/.gitignore_global
+	autocrlf = input
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
 	path = 
