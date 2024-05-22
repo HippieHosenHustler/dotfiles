@@ -1,10 +1,3 @@
-vim.cmd("set expandtab")
-vim.cmd("set tabstop=2")
-vim.cmd("set softtabstop=2")
-vim.cmd("set shiftwidth=2")
-vim.g.mapleader = " "
-vim.keymap.set('i', "jk", "<esc>")
-
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
 if not vim.loop.fs_stat(lazypath) then
   vim.fn.system({
@@ -18,34 +11,6 @@ if not vim.loop.fs_stat(lazypath) then
 end
 vim.opt.rtp:prepend(lazypath)
 
-local plugins = {
-  { "catppuccin/nvim", name = "catppuccin", priority = 1000 },
-  {
-    'nvim-telescope/telescope.nvim', tag = '0.1.6',
-    dependencies = { 'nvim-lua/plenary.nvim' }
-  },
-  {"nvim-treesitter/nvim-treesitter", build = ":TSUpdate"},
-  {
-    'stevearc/oil.nvim', opts = {},
-    dependencies = { "nvim-tree/nvim-web-devicons" }
-  }
-}
-local opts = {}
+require("vim-options")
+require("lazy").setup("plugins")
 
-require("lazy").setup(plugins, opts)
-local builtin = require("telescope.builtin")
-vim.keymap.set('n', '<leader>ff', builtin.find_files, {})
-vim.keymap.set('n', '<leader>fg', builtin.live_grep, {})
-
-local tsConfig = require("nvim-treesitter.configs")
-tsConfig.setup({
-  ensure_installed = {"lua", "javascript", "apex", "bash", "rust", "soql", "sosl"},
-  highlight = { enable = true },
-  indent = { enable = true },
-})
-
-require("oil").setup()
-vim.keymap.set("n", "-", "<CMD>Oil<CR>", { desc = "Open parent directory" })
-
-require("catppuccin").setup()
-vim.cmd.colorscheme "catppuccin"
