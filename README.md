@@ -15,3 +15,6 @@ enjoy
 ## To Update Brewfile
 
 brewdump
+
+## Stuff to do maybe
+- catppuccin theme for lualine?
