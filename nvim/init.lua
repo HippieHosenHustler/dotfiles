@@ -24,7 +24,11 @@ local plugins = {
     'nvim-telescope/telescope.nvim', tag = '0.1.6',
     dependencies = { 'nvim-lua/plenary.nvim' }
   },
-  {"nvim-treesitter/nvim-treesitter", build = ":TSUpdate"}
+  {"nvim-treesitter/nvim-treesitter", build = ":TSUpdate"},
+  {
+    'stevearc/oil.nvim', opts = {},
+    dependencies = { "nvim-tree/nvim-web-devicons" }
+  }
 }
 local opts = {}
 
@@ -39,6 +43,9 @@ tsConfig.setup({
   highlight = { enable = true },
   indent = { enable = true },
 })
+
+require("oil").setup()
+vim.keymap.set("n", "-", "<CMD>Oil<CR>", { desc = "Open parent directory" })
 
 require("catppuccin").setup()
 vim.cmd.colorscheme "catppuccin"
