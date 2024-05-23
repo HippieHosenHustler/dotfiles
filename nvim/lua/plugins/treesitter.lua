@@ -1,4 +1,3 @@
-
 return {
   "nvim-treesitter/nvim-treesitter",
   build = ":TSUpdate",
@@ -6,6 +5,7 @@ return {
     local config = require("nvim-treesitter.configs")
     config.setup({
       ensure_installed = {"lua", "javascript", "apex", "bash", "rust", "soql", "sosl"},
+      auto_install = true,
       highlight = { enable = true },
       indent = { enable = true },
     })
