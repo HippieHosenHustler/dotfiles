@@ -21,6 +21,9 @@ return {
       },
     })
 
-    vim.keymap.set("n", "<leader>gf", vim.lsp.buf.format)
+    vim.keymap.set("n", "<leader>gf", function(_)
+      -- so Apex formatting doesn't timeout
+      vim.lsp.buf.format({ timeout_ms = 2500 })
+    end)
   end,
 }
