@@ -1,6 +1,23 @@
-vim.cmd("set expandtab")
-vim.cmd("set tabstop=2")
-vim.cmd("set softtabstop=2")
-vim.cmd("set shiftwidth=2")
+local options = {
+	backup = false,
+	clipboard = "unnamedplus",
+	cmdheight = 2,
+	expandtab = true,
+	tabstop = 2,
+	softtabstop = 2,
+	shiftwidth = 2,
+	termguicolors = true,
+	signcolumn = "yes",
+	wrap = false,
+	number = true,
+	relativenumber = true,
+	scrolloff = 8,
+	sidescrolloff = 8,
+}
+
+for k, v in pairs(options) do
+	vim.opt[k] = v
+end
+
 vim.g.mapleader = " "
-vim.keymap.set('i', "jk", "<esc>")
+vim.keymap.set("i", "jk", "<esc>")
