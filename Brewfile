@@ -3,15 +3,22 @@ tap "homebrew/bundle"
 tap "homebrew/cask-fonts"
 tap "homebrew/services"
 tap "koekeishiya/formulae"
+tap "maticzav/swift-graphql", "https://github.com/maticzav/swift-graphql.git"
 tap "mongodb/brew"
 tap "pkgxdev/made"
 tap "spicetify/tap"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.12"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
+# Mozilla CA bundle for Python
+brew "certifi"
 # Console Matrix
 brew "cmatrix"
 # Dependency Manager for PHP
 brew "composer"
+# Secure runtime for JavaScript and TypeScript
+brew "deno"
 # Pack, ship and run any application as a lightweight container
 brew "docker"
 # .NET Core
@@ -20,6 +27,8 @@ brew "dotnet"
 brew "emscripten"
 # Modern replacement for 'ls'
 brew "exa"
+# Play, record, convert, and stream audio and video
+brew "ffmpeg"
 # Command-line fuzzy finder written in Go
 brew "fzf"
 # GitHub command-line tool
@@ -68,8 +77,10 @@ brew "openjdk@11"
 brew "openjdk@17"
 # Swiss-army knife of markup format conversion
 brew "pandoc"
+# Execute binaries from Python packages in isolated environments
+brew "pipx"
 # Object-relational database system
-brew "postgresql@14"
+brew "postgresql@14", restart_service: true
 # Python version management
 brew "pyenv"
 # GNOME Python bindings (based on GObject Introspection)
@@ -114,6 +125,8 @@ brew "felixkratz/formulae/sketchybar"
 brew "koekeishiya/formulae/skhd"
 # A tiling window manager for macOS based on binary space partitioning.
 brew "koekeishiya/formulae/yabai"
+# Code generator for SwiftGraphQL library
+brew "maticzav/swift-graphql/swiftgraphql"
 # High-performance, schema-free, document-oriented database
 brew "mongodb/brew/mongodb-community"
 # Run Anything
@@ -136,6 +149,8 @@ cask "bartender"
 cask "blender"
 # Workflow and Decision Automation Platform
 cask "camunda-modeler"
+# OpenAI's official ChatGPT desktop app
+cask "chatgpt"
 # Managed desktop virtualization solution
 cask "citrix-workspace"
 # Screen capturing tool
@@ -150,19 +165,12 @@ cask "dozer"
 cask "drawio"
 # Launcher for *Epic Games* games
 cask "epic-games"
-# Reimagine your terminal
-cask "fig"
 # Web browser
 cask "firefox"
-# Free monospaced font with programming ligatures
 cask "font-fira-code"
-# Developer targeted fonts with a high number of glyphs
 cask "font-hack-nerd-font"
-# Typeface made for developers
 cask "font-jetbrains-mono"
-# Developer targeted fonts with a high number of glyphs
 cask "font-jetbrains-mono-nerd-font"
-# Sans-serif variant of "San Francisco" by Apple
 cask "font-sf-pro"
 # Desktop client for GitHub repositories
 cask "github"
@@ -200,6 +208,8 @@ cask "modern-csv"
 cask "nordvpn"
 # Knowledge base that works on top of a local folder of plain text Markdown files
 cask "obsidian"
+# Retro video game emulation
+cask "openemu"
 # GUI prototyping tool
 cask "pencil"
 # Podcast platform
@@ -236,6 +246,8 @@ cask "the-battle-for-wesnoth"
 cask "unity"
 # Management tool for Unity
 cask "unity-hub"
+# Open-source code editor
+cask "visual-studio-code"
 # Binary releases of VS Code without MS branding/telemetry/licensing
 cask "vscodium"
 # Bit torrent client
@@ -268,3 +280,45 @@ mas "Pages", id: 409201541
 mas "Prime Video", id: 545519333
 mas "Streaks", id: 963034692
 mas "Xcode", id: 497799835
+vscode "1yib.rust-bundle"
+vscode "allanoricil.salesforce-soql-editor"
+vscode "catppuccin.catppuccin-vsc"
+vscode "chuckjonas.apex-pmd"
+vscode "davidanson.vscode-markdownlint"
+vscode "dbaeumer.vscode-eslint"
+vscode "denoland.vscode-deno"
+vscode "dustypomerleau.rust-syntax"
+vscode "eamodio.gitlens"
+vscode "esbenp.prettier-vscode"
+vscode "financialforce.lana"
+vscode "github.vscode-github-actions"
+vscode "jebbs.plantuml"
+vscode "mechatroner.rainbow-csv"
+vscode "ms-dotnettools.csdevkit"
+vscode "ms-dotnettools.csharp"
+vscode "ms-dotnettools.vscode-dotnet-runtime"
+vscode "ms-python.debugpy"
+vscode "ms-python.python"
+vscode "ms-python.vscode-pylance"
+vscode "orsenkucher.vscode-graphql"
+vscode "redhat.vscode-xml"
+vscode "rust-lang.rust-analyzer"
+vscode "salesforce.salesforce-vscode-slds"
+vscode "salesforce.salesforcedx-einstein-gpt"
+vscode "salesforce.salesforcedx-vscode"
+vscode "salesforce.salesforcedx-vscode-apex"
+vscode "salesforce.salesforcedx-vscode-apex-debugger"
+vscode "salesforce.salesforcedx-vscode-apex-replay-debugger"
+vscode "salesforce.salesforcedx-vscode-core"
+vscode "salesforce.salesforcedx-vscode-expanded"
+vscode "salesforce.salesforcedx-vscode-lightning"
+vscode "salesforce.salesforcedx-vscode-lwc"
+vscode "salesforce.salesforcedx-vscode-soql"
+vscode "salesforce.salesforcedx-vscode-visualforce"
+vscode "salesforce.sfdx-code-analyzer-vscode"
+vscode "serayuzgur.crates"
+vscode "supermaven.supermaven"
+vscode "visualstudiotoolsforunity.vstuc"
+vscode "vscodevim.vim"
+vscode "withfig.fig"
+vscode "yoavbls.pretty-ts-errors"

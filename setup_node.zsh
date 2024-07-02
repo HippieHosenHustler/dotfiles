@@ -16,6 +16,7 @@ fi
 npm i -g @salesforce/cli
 npm i -g @dxatscale/sfpowerscripts
 npm i -g vlocity
+npm i -g @nestjs/cli
 
 echo "\nGlobal NPM Packages installed: \n"
 npm ls -g --depth=0
