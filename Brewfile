@@ -33,6 +33,8 @@ brew "ffmpeg"
 brew "fzf"
 # GitHub command-line tool
 brew "gh"
+# Statically typed language for the Erlang VM
+brew "gleam"
 # GNOME Spreadsheet Application
 brew "gnumeric"
 # Open source programming language to build simple/reliable/efficient software
@@ -79,6 +81,8 @@ brew "openjdk@17"
 brew "pandoc"
 # Execute binaries from Python packages in isolated environments
 brew "pipx"
+# Draw UML diagrams
+brew "plantuml"
 # Object-relational database system
 brew "postgresql@14", restart_service: true
 # Python version management
@@ -88,7 +92,7 @@ brew "pygobject3"
 # Search tool like grep and The Silver Searcher
 brew "ripgrep"
 # Rust toolchain installer
-brew "rustup-init"
+brew "rustup"
 # Prints a steam locomotive if you type sl instead of ls
 brew "sl"
 # Command-line interface for https://speedtest.net bandwidth tests
@@ -113,6 +117,8 @@ brew "wget"
 brew "wordle"
 # JavaScript package manager
 brew "yarn"
+# Blazing fast terminal file manager written in Rust, based on async I/O
+brew "yazi"
 # Feature-rich command-line audio/video downloader
 brew "yt-dlp"
 # Shell extension to navigate your filesystem faster
@@ -186,8 +192,14 @@ cask "handbrake"
 cask "iina"
 # Tool to optimise images to a smaller size
 cask "imageoptim"
+# HTTP and GraphQL Client
+cask "insomnia"
 # Interface for reading and syncing eBooks
 cask "kindle"
+# GPU-based terminal emulator
+cask "kitty"
+# Multiplayer online battle arena game
+cask "league-of-legends"
 # Software for Logitech devices
 cask "logitech-options"
 # App for designing HTML5 Scalable Vector Graphics
@@ -252,8 +264,14 @@ cask "visual-studio-code"
 cask "vscodium"
 # Bit torrent client
 cask "vuze"
+# Terminal emulator
+cask "wave"
+# JavaScript IDE
+cask "webstorm"
 # Native desktop client for WhatsApp
 cask "whatsapp"
+# Wine wrapper built with SwiftUI
+cask "whisky"
 # Compatibility layer to run Windows applications
 cask "wine-stable"
 # Tax declaration for the fiscal year 2022
@@ -290,6 +308,7 @@ vscode "denoland.vscode-deno"
 vscode "dustypomerleau.rust-syntax"
 vscode "eamodio.gitlens"
 vscode "esbenp.prettier-vscode"
+vscode "fill-labs.dependi"
 vscode "financialforce.lana"
 vscode "github.vscode-github-actions"
 vscode "jebbs.plantuml"
@@ -316,8 +335,8 @@ vscode "salesforce.salesforcedx-vscode-lwc"
 vscode "salesforce.salesforcedx-vscode-soql"
 vscode "salesforce.salesforcedx-vscode-visualforce"
 vscode "salesforce.sfdx-code-analyzer-vscode"
-vscode "serayuzgur.crates"
 vscode "supermaven.supermaven"
+vscode "tamasfe.even-better-toml"
 vscode "visualstudiotoolsforunity.vstuc"
 vscode "vscodevim.vim"
 vscode "withfig.fig"
