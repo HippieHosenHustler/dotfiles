@@ -45,8 +45,8 @@ export EDITOR="nvim"
 
 # Create Aliases
 # alias ls='ls -lAFh'
-alias ls='exa -laFh --git'
-alias exa='exa -laFh --git'
+alias ls='eza -lah --git'
+alias exa='exa -lah --git'
 alias cat='bat'
 alias brewdump='brew bundle dump --force --describe'
 alias trail='<<<${(F)path}'

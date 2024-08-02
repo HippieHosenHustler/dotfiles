@@ -25,8 +25,8 @@ brew "docker"
 brew "dotnet"
 # LLVM bytecode to JavaScript compiler
 brew "emscripten"
-# Modern replacement for 'ls'
-brew "exa"
+# Modern, maintained replacement for ls
+brew "eza"
 # Play, record, convert, and stream audio and video
 brew "ffmpeg"
 # Command-line fuzzy finder written in Go
