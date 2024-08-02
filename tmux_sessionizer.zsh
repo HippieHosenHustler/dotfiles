@@ -19,13 +19,19 @@ SESSION_NAME="${SESSION_NAME/#./_}"
 
 # Check if the tmux session already exists
 if tmux has-session -t "$SESSION_NAME" 2>/dev/null; then
-  # Switch to the existing session
-  tmux switch-client -t "$SESSION_NAME"
+  # Check if there is an active tmux client
+  if tmux list-clients 2>/dev/null | grep -q "^"; then
+    # Switch to the existing session
+    tmux switch-client -t "$SESSION_NAME"
+  else
+    # Attach to the existing session if no client is active
+    tmux attach-session -t "$SESSION_NAME"
+  fi
 else
   # Create a new tmux session with the specified configuration
   tmux new-session -d -s "$SESSION_NAME" -c "$TARGET_DIR" -n "Nvim" "nvim"
   tmux new-window -t "$SESSION_NAME:1" -n "Git" -c "$TARGET_DIR" "lazygit"
   tmux new-window -t "$SESSION_NAME:2" -n "zsh" -c "$TARGET_DIR"
-  # Switch to the new session
-  tmux switch-client -t "$SESSION_NAME"
+  # Attach to the new session
+  tmux attach-session -t "$SESSION_NAME"
 fi
