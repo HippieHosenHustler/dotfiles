@@ -153,6 +153,8 @@ cask "balsamiq-wireframes"
 cask "bartender"
 # 3D creation suite
 cask "blender"
+# Performance analysis software
+cask "blitz-gg"
 # Workflow and Decision Automation Platform
 cask "camunda-modeler"
 # OpenAI's official ChatGPT desktop app
@@ -198,8 +200,6 @@ cask "insomnia"
 cask "kindle"
 # GPU-based terminal emulator
 cask "kitty"
-# Multiplayer online battle arena game
-cask "league-of-legends"
 # Software for Logitech devices
 cask "logitech-options"
 # App for designing HTML5 Scalable Vector Graphics
@@ -300,6 +300,8 @@ mas "Streaks", id: 963034692
 mas "Xcode", id: 497799835
 vscode "1yib.rust-bundle"
 vscode "allanoricil.salesforce-soql-editor"
+vscode "austenc.tailwind-docs"
+vscode "bradlc.vscode-tailwindcss"
 vscode "catppuccin.catppuccin-vsc"
 vscode "chuckjonas.apex-pmd"
 vscode "davidanson.vscode-markdownlint"
@@ -311,6 +313,7 @@ vscode "esbenp.prettier-vscode"
 vscode "fill-labs.dependi"
 vscode "financialforce.lana"
 vscode "github.vscode-github-actions"
+vscode "hubspot.hubl"
 vscode "jebbs.plantuml"
 vscode "mechatroner.rainbow-csv"
 vscode "ms-dotnettools.csdevkit"
