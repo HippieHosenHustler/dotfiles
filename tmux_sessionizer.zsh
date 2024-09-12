@@ -34,4 +34,5 @@ else
   tmux new-window -t "$SESSION_NAME:2" -n "zsh" -c "$TARGET_DIR"
   # Attach to the new session
   tmux attach-session -t "$SESSION_NAME"
+  tmux switch-session -t "$SESSION_NAME"
 fi
