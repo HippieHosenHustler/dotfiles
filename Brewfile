@@ -128,10 +128,6 @@ brew "zoxide"
 brew "zsh"
 # Custom macOS statusbar with shell plugin, interaction and graph support
 brew "felixkratz/formulae/sketchybar"
-# Simple hotkey-daemon for macOS.
-brew "koekeishiya/formulae/skhd"
-# A tiling window manager for macOS based on binary space partitioning.
-brew "koekeishiya/formulae/yabai"
 # Code generator for SwiftGraphQL library
 brew "maticzav/swift-graphql/swiftgraphql"
 # High-performance, schema-free, document-oriented database
