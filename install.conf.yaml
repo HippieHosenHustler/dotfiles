@@ -37,6 +37,9 @@
     ~/.config/sketchybar:
       create: true
       path: config/sketchybar
+    ~/.config/aerospace:
+      create: true
+      path: config/aerospace
     /Library/Keyboard\ Layouts/EurKEY.icns: EurKEY-Mac/EurKEY.icns
     /Library/Keyboard\ Layouts/EurKEY.keylayout: EurKEY-Mac/EurKEY.keylayout
     /Library/Application Support/VSCodium/User/settings.json:
