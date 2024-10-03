@@ -5,6 +5,7 @@ tap "homebrew/services"
 tap "koekeishiya/formulae"
 tap "maticzav/swift-graphql", "https://github.com/maticzav/swift-graphql.git"
 tap "mongodb/brew"
+tap "nikitabobko/tap"
 tap "pkgxdev/made"
 tap "spicetify/tap"
 # Interpreted, interactive, object-oriented programming language
@@ -143,6 +144,8 @@ brew "spicetify/tap/spicetify-cli"
 cask "1password"
 # Command-line interface for 1Password
 cask "1password-cli"
+# AeroSpace is an i3-like tiling window manager for macOS
+cask "aerospace"
 # GPU-accelerated terminal emulator
 cask "alacritty"
 # Chromium based browser
@@ -171,6 +174,8 @@ cask "discord"
 cask "dozer"
 # Online diagram software
 cask "drawio"
+# Control your Elgato key lights
+cask "elgato-control-center"
 # Launcher for *Epic Games* games
 cask "epic-games"
 # Web browser
@@ -218,6 +223,8 @@ cask "miro"
 cask "modern-csv"
 # VPN client for secure internet access and private browsing
 cask "nordvpn"
+# Open-source software for live streaming and screen recording
+cask "obs"
 # Knowledge base that works on top of a local folder of plain text Markdown files
 cask "obsidian"
 # Retro video game emulation
