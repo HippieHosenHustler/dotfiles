@@ -61,7 +61,6 @@ alias sfpushf='sf project deploy start --ignore-conflicts --ignore-warnings'
 alias sfpushp='sf project deploy preview'
 alias sfswitch='sf config set target-org'
 alias grep='rg'
-alias spiceup='spicetify restore backup apply'
 
 # Add Locations to $path array
 typeset -U path
