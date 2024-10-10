@@ -6,16 +6,6 @@
     nix-darwin.url = "github:LnL7/nix-darwin";
     nix-darwin.inputs.nixpkgs.follows = "nixpkgs";
     nix-homebrew.url = "github:zhaofengli-wip/nix-homebrew";
-
-    # Declarative Homebrew tap management
-    homebrew-core = {
-      url = "github:homebrew/homebrew-core";
-      flake = false;
-    };
-    homebrew-cask = {
-      url = "github:homebrew/homebrew-cask";
-      flake = false;
-    };
   };
 
   outputs = inputs@{ self, nix-darwin, nixpkgs, nix-homebrew }:
@@ -28,9 +18,15 @@
       # $ nix-env -qaP | grep wget
       environment.systemPackages =
         [ 
-          pkgs.neovim
           pkgs.mkalias
+          pkgs.python3
+
         ];
+
+      homebrew = {
+        enable = true;
+        casks = [];
+      };
 
       fonts.packages = [
         (pkgs.nerdfonts.override { fonts = [ "JetBrainsMono" ]; })
@@ -42,19 +38,19 @@
           paths = config.environment.systemPackages;
           pathsToLink = "/Applications";
         };
-      in 
+      in
         pkgs.lib.mkForce ''
-          # Set up applications.
-          echo "setting up /Applications..." >&2
-          rm -rf /Applications/Nix\ Apps
-          mkdir -p /Applications/Nix\ Apps
-          find ${env}/Applications -maxdepth 1 -type l -exec readlink '{}' + |
-          while read src; do
-            app_name=$(basename "$src")
-            echo "copying $src" >&2
-            ${pkgs.mkalias}/bin/mkalias "$src" "/Applications/Nix Apps/$app_name"
-          done
-        '';
+        # Set up applications.
+        echo "setting up /Applications..." >&2
+        rm -rf /Applications/Nix\ Apps
+        mkdir -p /Applications/Nix\ Apps
+        find ${env}/Applications -maxdepth 1 -type l -exec readlink '{}' + |
+        while read src; do
+          app_name=$(basename "$src")
+          echo "copying $src" >&2
+          ${pkgs.mkalias}/bin/mkalias "$src" "/Applications/Nix Apps/$app_name"
+        done
+            '';
 
       # Auto upgrade nix package and the daemon service.
       services.nix-daemon.enable = true;
@@ -82,18 +78,21 @@
     # Build darwin flake using:
     # $ darwin-rebuild build --flake .#simple
     darwinConfigurations."air" = nix-darwin.lib.darwinSystem {
-      modules = [ 
+      modules = [
         configuration
-        nix-homebrew = {
-          # Install Homebrew under the default prefix
-          enable = true;
-          # Apple Silicon Only: Also install Homebrew under the default Intel prefix for Rosetta 2
-          enableRosetta = true;
-          # User owning the Homebrew prefix
-          user = "edwinscharfe";
-          # Automatically migrate existing Homebrew installations
-          autoMigrate = true;
-        };
+        nix-homebrew.darwinModules.nix-homebrew 
+        {
+          nix-homebrew = {
+            # Install Homebrew under the default prefix
+            enable = true;
+            # Apple Silicon Only: Also install Homebrew under the default Intel prefix for Rosetta 2
+            enableRosetta = true;
+            # User owning the Homebrew prefix
+            user = "edwinscharfe";
+            # Automatically migrate existing Homebrew installations
+            autoMigrate = true;
+          };
+        }
       ];
     };
 
