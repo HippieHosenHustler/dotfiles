@@ -68,6 +68,7 @@ typeset -U path
 path=(
 	"$N_PREFIX/bin"
 	"/opt/homebrew/opt/openjdk@17/bin"
+  "/run/current-system/sw/bin"
 	$path
 
 )
