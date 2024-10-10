@@ -56,7 +56,6 @@
           pkgs.yt-dlp
           pkgs.zoxide
           pkgs.zsh
-          pkgs._1password-gui
           pkgs.alacritty
           pkgs.arc-browser
           pkgs.blender
@@ -117,6 +116,7 @@
           "whatsapp"
           "whisky"
           "wine-stable"
+          "1password"
         ];
         masApps = {
           "Dropover" = "1355679052";
