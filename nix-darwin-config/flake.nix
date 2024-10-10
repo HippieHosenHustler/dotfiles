@@ -92,7 +92,7 @@
         enable = true;
         brews = [
           "mas"
-        ]
+        ];
         casks = [
           "aerospace"
           "balsamiq-wireframes"
@@ -118,7 +118,7 @@
           "whisky"
           "wine-stable"
         ];
-        masApps = [
+        masApps = {
           "Dropover" = "1355679052";
           "GarageBand" = "682658836";
           "iMovie" = "408981434";
@@ -135,7 +135,7 @@
           "Prime Video" = "545519333";
           "Streaks" = "963034692";
           "Xcode" = "497799835";
-        ]
+        };
         onActivation.cleanup = "zap";
         onActivation.autoUpdate = true;
         onActivation.upgrade = true;
