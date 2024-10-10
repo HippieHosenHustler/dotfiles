@@ -20,12 +20,123 @@
         [ 
           pkgs.mkalias
           pkgs.python3
-
+          pkgs.bat
+          pkgs.php83Packages.composer
+          pkgs.deno
+          pkgs.docker
+          pkgs.emscripten
+          pkgs.eza
+          pkgs.ffmpeg_7
+          pkgs.fzf
+          pkgs.gh
+          pkgs.htop
+          pkgs.httpie
+          pkgs.jq
+          pkgs.lazygit
+          pkgs.luajit_openresty
+          pkgs.luajitPackages.luarocks
+          pkgs.neo4j
+          pkgs.nodejs_22
+          pkgs.jdk11
+          pkgs.jdk17
+          pkgs.pandoc
+          pkgs.pipx
+          pkgs.plantuml-c4
+          pkgs.postgresql
+          pkgs.ripgrep
+          pkgs.rustup
+          pkgs.speedtest-cli
+          pkgs.starship
+          pkgs.tmux
+          pkgs.tmuxinator
+          pkgs.trash-cli
+          pkgs.tree
+          pkgs.wget
+          pkgs.yarn
+          pkgs.yt-dlp
+          pkgs.zoxide
+          pkgs.zsh
+          pkgs._1password-gui
+          pkgs.alacritty
+          pkgs.arc-browser
+          pkgs.blender
+          pkgs.camunda-modeler
+          pkgs.clipgrab
+          pkgs.discord
+          pkgs.drawio
+          pkgs.firefox
+          pkgs.fira-code
+          pkgs.gitkraken
+          pkgs.google-chrome
+          pkgs.iina
+          pkgs.insomnia
+          pkgs.teams
+          pkgs.obs-studio
+          pkgs.obsidian
+          pkgs.pocket-casts
+          pkgs.postman
+          pkgs.raycast
+          pkgs.shortcat
+          pkgs.spotify
+          pkgs.stats
+          pkgs.steam
+          pkgs.wesnoth
+          pkgs.unityhub
+          pkgs.vscode
+          pkgs.vuze
+          pkgs.jetbrains.webstorm
+          pkgs.xmind
         ];
 
       homebrew = {
         enable = true;
-        casks = [];
+        brews = [
+          "mas"
+        ]
+        casks = [
+          "aerospace"
+          "balsamiq-wireframes"
+          "blitz-gg"
+          "cleanshot"
+          "dozer"
+          "elgato-control-center"
+          "epic-games"
+          "font-hack-nerd-font"
+          "font-jetbrains-mono-nerd-font"
+          "font-sf-pro"
+          "github"
+          "kindle"
+          "logitech-options"
+          "macsvg"
+          "meetingbar"
+          "microsoft-auto-update"
+          "modern-csv"
+          "nordvpn"
+          "signal"
+          "sourcetree"
+          "whatsapp"
+          "whisky"
+          "wine-stable"
+        ];
+        masApps = [
+          "Dropover" = "1355679052";
+          "GarageBand" = "682658836";
+          "iMovie" = "408981434";
+          "Keynote" = "409183694";
+          "Microsoft Excel" = "462058435";
+          "Microsoft OneNote" = "784801555";
+          "Microsoft Outlook" = "985367838";
+          "Microsoft PowerPoint" = "462062816";
+          "Microsoft To Do" = "1274495053";
+          "Microsoft Word" = "462054704";
+          "Numbers" = "409203825";
+          "OneDrive" = "823766827";
+          "Pages" = "409201541";
+          "Prime Video" = "545519333";
+          "Streaks" = "963034692";
+          "Xcode" = "497799835";
+        ]
+        onActivation.cleanup = "zap";
       };
 
       fonts.packages = [
