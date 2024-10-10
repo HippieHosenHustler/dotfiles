@@ -126,8 +126,6 @@ brew "yt-dlp"
 brew "zoxide"
 # UNIX shell (command interpreter)
 brew "zsh"
-# Custom macOS statusbar with shell plugin, interaction and graph support
-brew "felixkratz/formulae/sketchybar"
 # Code generator for SwiftGraphQL library
 brew "maticzav/swift-graphql/swiftgraphql"
 # High-performance, schema-free, document-oriented database
@@ -316,6 +314,7 @@ vscode "esbenp.prettier-vscode"
 vscode "fill-labs.dependi"
 vscode "financialforce.lana"
 vscode "github.vscode-github-actions"
+vscode "goopware.raythis"
 vscode "hubspot.hubl"
 vscode "jebbs.plantuml"
 vscode "mechatroner.rainbow-csv"
