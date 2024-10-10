@@ -58,33 +58,21 @@
           pkgs.zsh
           pkgs.alacritty
           pkgs.arc-browser
-          pkgs.blender
           pkgs.camunda-modeler
-          pkgs.clipgrab
           pkgs.discord
           pkgs.drawio
-          pkgs.firefox
           pkgs.fira-code
           pkgs.gitkraken
           pkgs.google-chrome
           pkgs.iina
-          pkgs.insomnia
           pkgs.teams
-          pkgs.obs-studio
           pkgs.obsidian
-          pkgs.pocket-casts
           pkgs.postman
           pkgs.raycast
           pkgs.shortcat
-          pkgs.spotify
           pkgs.stats
-          pkgs.steam
           pkgs.wesnoth
-          pkgs.unityhub
           pkgs.vscode
-          pkgs.vuze
-          pkgs.jetbrains.webstorm
-          pkgs.xmind
         ];
 
       homebrew = {
@@ -117,24 +105,36 @@
           "whisky"
           "wine-stable"
           "1password"
+          "blender"
+          "clipgrab"
+          "firefox"
+          "insomnia"
+          "obs"
+          "steam"
+          "unity"
+          "unity-hub"
+          "xmind"
+          "webstorm"
+          "vuze"
+          "spotify"
         ];
         masApps = {
-          "Dropover" = "1355679052";
-          "GarageBand" = "682658836";
-          "iMovie" = "408981434";
-          "Keynote" = "409183694";
-          "Microsoft Excel" = "462058435";
-          "Microsoft OneNote" = "784801555";
-          "Microsoft Outlook" = "985367838";
-          "Microsoft PowerPoint" = "462062816";
-          "Microsoft To Do" = "1274495053";
-          "Microsoft Word" = "462054704";
-          "Numbers" = "409203825";
-          "OneDrive" = "823766827";
-          "Pages" = "409201541";
-          "Prime Video" = "545519333";
-          "Streaks" = "963034692";
-          "Xcode" = "497799835";
+          "Dropover" = 1355679052;
+          "GarageBand" = 682658836;
+          "iMovie" = 408981434;
+          "Keynote" = 409183694;
+          "Microsoft Excel" = 462058435;
+          "Microsoft OneNote" = 784801555;
+          "Microsoft Outlook" = 985367838;
+          "Microsoft PowerPoint" = 462062816;
+          "Microsoft To Do" = 1274495053;
+          "Microsoft Word" = 462054704;
+          "Numbers" = 409203825;
+          "OneDrive" = 823766827;
+          "Pages" = 409201541;
+          "Prime Video" = 545519333;
+          "Streaks" = 963034692;
+          "Xcode" = 497799835;
         };
         onActivation.cleanup = "zap";
         onActivation.autoUpdate = true;
