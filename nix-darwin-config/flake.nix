@@ -72,6 +72,7 @@
           pkgs.stats
           pkgs.wesnoth
           pkgs.vscode
+          pkgs.openconnect_openssl
         ];
 
       homebrew = {
