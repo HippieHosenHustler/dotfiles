@@ -37,7 +37,6 @@
           pkgs.luajitPackages.luarocks
           pkgs.neo4j
           pkgs.nodejs_22
-          pkgs.jdk11
           pkgs.jdk17
           pkgs.pandoc
           pkgs.pipx
