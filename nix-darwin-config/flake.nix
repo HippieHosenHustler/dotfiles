@@ -135,6 +135,7 @@
           "Prime Video" = 545519333;
           "Streaks" = 963034692;
           "Xcode" = 497799835;
+          "Microsoft App" = 1295203466;
         };
         onActivation.cleanup = "zap";
         onActivation.autoUpdate = true;
