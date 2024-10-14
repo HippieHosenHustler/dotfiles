@@ -166,6 +166,35 @@
         done
             '';
 
+      system.defaults = {
+        # Dock Settings
+        dock.autohide = true;
+        dock.orientation = "left";
+        dock.tilesize = 26;
+        dock.autohide-delay = 0;
+        dock.show-recents = false;
+        dock.mineffect = "scale";
+        dock.mru-spaces = false;
+
+        # Finder Settings
+        finder.AppleShowAllFiles = true;
+        finder.ShowPathbar = true;
+        finder.FXPreferredViewStyle = "clmv";
+        finder.FXRemoveOldTrashItems = true;
+        finder._FXShowPosixPathInTitle = true;
+        finder._FXSortFoldersFirst = true;
+        finder.AppleShowAllExtensions = true;
+        finder.QuitMenuItem = true;
+
+        # Trackpad Settings
+        trackpad.Clicking = true;
+        trackpad.TrackpadThreeFingerDrag = true;
+        trackpad.Dragging = false;
+
+        # NSGlobalDomain Settings
+        NSGlobalDomain.AppleSpacesSwitchOnActivate = false;
+      };
+
       # Auto upgrade nix package and the daemon service.
       services.nix-daemon.enable = true;
       # nix.package = pkgs.nix;
