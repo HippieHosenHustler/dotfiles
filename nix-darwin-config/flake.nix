@@ -78,7 +78,7 @@
         enable = true;
         taps = [
           "nikitabobko/tap"
-        ]
+        ];
         brews = [
           "mas"
         ];
