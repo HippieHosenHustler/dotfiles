@@ -64,7 +64,6 @@
           pkgs.gitkraken
           pkgs.google-chrome
           pkgs.iina
-          pkgs.teams
           pkgs.obsidian
           pkgs.postman
           pkgs.raycast
@@ -120,6 +119,7 @@
           "webstorm"
           "vuze"
           "spotify"
+          "microsoft-teams"
         ];
         masApps = {
           "Dropover" = 1355679052;
