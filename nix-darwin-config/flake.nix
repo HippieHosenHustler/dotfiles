@@ -171,7 +171,7 @@
         dock.autohide = true;
         dock.orientation = "left";
         dock.tilesize = 26;
-        dock.autohide-delay = 0;
+        dock.autohide-delay = 0.0;
         dock.show-recents = false;
         dock.mineffect = "scale";
         dock.mru-spaces = false;
