@@ -180,7 +180,6 @@
         finder.AppleShowAllFiles = true;
         finder.ShowPathbar = true;
         finder.FXPreferredViewStyle = "clmv";
-        "com.apple.finder".FXRemoveOldTrashItems = true;
         finder._FXShowPosixPathInTitle = true;
         finder._FXSortFoldersFirst = true;
         finder.AppleShowAllExtensions = true;
