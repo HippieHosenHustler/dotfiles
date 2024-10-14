@@ -203,8 +203,6 @@
             enableRosetta = true;
             # User owning the Homebrew prefix
             user = "edwinscharfe";
-            # Automatically migrate existing Homebrew installations
-            autoMigrate = true;
           };
         }
       ];
