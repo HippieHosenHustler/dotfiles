@@ -18,6 +18,7 @@
       # $ nix-env -qaP | grep wget
       environment.systemPackages =
         [ 
+          pkgs.neovim
           pkgs.mkalias
           pkgs.python3
           pkgs.bat
