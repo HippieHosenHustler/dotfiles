@@ -73,6 +73,7 @@
           pkgs.wesnoth
           pkgs.vscode
           pkgs.openconnect_openssl
+          pkgs.colima
         ];
 
       homebrew = {
