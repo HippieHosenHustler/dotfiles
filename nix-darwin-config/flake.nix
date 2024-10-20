@@ -74,6 +74,8 @@
           pkgs.vscode
           pkgs.openconnect_openssl
           pkgs.colima
+          pkgs.cocoapods
+          pkgs.flutter
         ];
 
       homebrew = {
