@@ -76,6 +76,7 @@
           pkgs.colima
           pkgs.cocoapods
           pkgs.flutter
+          pkgs.python312Packages.pynvim
         ];
 
       homebrew = {
