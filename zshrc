@@ -42,6 +42,7 @@ export HOMEBREW_CASK_OPTS="--no-quarantine"
 export N_PREFIX="$HOME/.n"
 export NULLCMD="bat"
 export EDITOR="nvim"
+export CHROME_EXECUTABLE="/run/current-system/sw/bin/google-chrome-stable"
 
 # Create Aliases
 # alias ls='ls -lAFh'
