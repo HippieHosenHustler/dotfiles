@@ -118,8 +118,6 @@
           "insomnia"
           "obs"
           "steam"
-          "unity"
-          "unity-hub"
           "xmind"
           "webstorm"
           "vuze"
