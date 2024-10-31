@@ -77,6 +77,7 @@
           pkgs.cocoapods
           pkgs.flutter
           pkgs.lunarvim
+          pkgs.tldr
         ];
 
       homebrew = {
