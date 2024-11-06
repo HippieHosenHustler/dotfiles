@@ -78,6 +78,7 @@
           pkgs.flutter
           pkgs.lunarvim
           pkgs.tldr
+          pkgs.lmstudio
         ];
 
       homebrew = {
@@ -87,6 +88,7 @@
         ];
         brews = [
           "mas"
+          "displayplacer"
         ];
         casks = [
           "aerospace"
