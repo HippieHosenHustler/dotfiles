@@ -78,7 +78,6 @@
           pkgs.flutter
           pkgs.lunarvim
           pkgs.tldr
-          pkgs.lmstudio
         ];
 
       homebrew = {
@@ -126,6 +125,7 @@
           "vuze"
           "spotify"
           "microsoft-teams"
+          "lm-studio"
         ];
         masApps = {
           "Dropover" = 1355679052;
