@@ -126,6 +126,7 @@
           "vuze"
           "spotify"
           "microsoft-teams"
+          "zen-browser"
         ];
         masApps = {
           "Dropover" = 1355679052;
