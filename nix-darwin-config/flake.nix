@@ -79,6 +79,7 @@
           pkgs.lunarvim
           pkgs.tldr
           pkgs.ollama
+          pkgs.wezterm
         ];
 
       homebrew = {
