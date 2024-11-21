@@ -92,6 +92,7 @@
           "displayplacer"
         ];
         casks = [
+          "todoist"
           "aerospace"
           "balsamiq-wireframes"
           "blitz-gg"
