@@ -67,7 +67,6 @@
           pkgs.iina
           pkgs.obsidian
           pkgs.postman
-          pkgs.raycast
           pkgs.shortcat
           pkgs.stats
           pkgs.wesnoth
@@ -76,7 +75,7 @@
           pkgs.colima
           pkgs.cocoapods
           pkgs.flutter
-          pkgs.lunarvim
+          # pkgs.lunarvim
           pkgs.tldr
           pkgs.ollama
           pkgs.wezterm
@@ -92,6 +91,7 @@
           "displayplacer"
         ];
         casks = [
+          "raycast"
           "todoist"
           "aerospace"
           "balsamiq-wireframes"
@@ -153,10 +153,6 @@
         onActivation.autoUpdate = true;
         onActivation.upgrade = true;
       };
-
-      fonts.packages = [
-        (pkgs.nerdfonts.override { fonts = [ "JetBrainsMono" ]; })
-      ];
 
       system.activationScripts.applications.text = let
         env = pkgs.buildEnv {
