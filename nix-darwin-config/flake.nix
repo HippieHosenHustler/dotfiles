@@ -57,7 +57,6 @@
           pkgs.zoxide
           pkgs.zsh
           pkgs.alacritty
-          pkgs.arc-browser
           pkgs.camunda-modeler
           pkgs.discord
           pkgs.drawio
@@ -92,6 +91,7 @@
         ];
         casks = [
 	  "logi-options+"
+	  "arc"
           "raycast"
           "todoist"
           "aerospace"
