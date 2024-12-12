@@ -91,6 +91,7 @@
           "displayplacer"
         ];
         casks = [
+	  "logi-options+"
           "raycast"
           "todoist"
           "aerospace"
