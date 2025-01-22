@@ -129,6 +129,7 @@
           "spotify"
           "microsoft-teams"
           "zen-browser"
+	  "league-of-legends"
         ];
         masApps = {
           "Dropover" = 1355679052;
