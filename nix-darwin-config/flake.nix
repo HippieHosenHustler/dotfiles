@@ -17,7 +17,7 @@
       # List packages installed in system profile. To search by name, run:
       # $ nix-env -qaP | grep wget
       environment.systemPackages =
-        [ 
+        [
           pkgs.neovim
           pkgs.mkalias
           pkgs.python3
@@ -45,7 +45,6 @@
           pkgs.postgresql
           pkgs.ripgrep
           pkgs.rustup
-          pkgs.speedtest-cli
           pkgs.starship
           pkgs.tmux
           pkgs.tmuxinator
@@ -65,7 +64,6 @@
           pkgs.google-chrome
           pkgs.iina
           pkgs.obsidian
-          pkgs.postman
           pkgs.shortcat
           pkgs.stats
           pkgs.vscode
@@ -94,7 +92,6 @@
           "raycast"
           "todoist"
           "aerospace"
-          "balsamiq-wireframes"
           "blitz-gg"
           "cleanshot"
           "dozer"
@@ -104,31 +101,22 @@
           "font-jetbrains-mono-nerd-font"
           "font-sf-pro"
           "github"
-          "kindle"
-          "logitech-options"
           "macsvg"
-          "meetingbar"
           "microsoft-auto-update"
           "modern-csv"
           "nordvpn"
           "signal"
           "sourcetree"
           "whatsapp"
-          "whisky"
-          "wine-stable"
           "1password"
-          "blender"
           "clipgrab"
           "firefox"
           "insomnia"
-          "obs"
           "steam"
           "xmind"
           "webstorm"
-          "vuze"
           "spotify"
           "microsoft-teams"
-          "zen-browser"
 	  "league-of-legends"
         ];
         masApps = {
@@ -146,7 +134,6 @@
           "OneDrive" = 823766827;
           "Pages" = 409201541;
           "Prime Video" = 545519333;
-          "Streaks" = 963034692;
           "Xcode" = 497799835;
           "Microsoft App" = 1295203466;
         };
