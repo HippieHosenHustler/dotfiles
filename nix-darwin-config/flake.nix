@@ -117,7 +117,6 @@
           "webstorm"
           "spotify"
           "microsoft-teams"
-	  "league-of-legends"
         ];
         masApps = {
           "Dropover" = 1355679052;
