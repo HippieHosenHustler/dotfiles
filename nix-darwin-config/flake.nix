@@ -1,6 +1,7 @@
 {
   description = "Zenful Darwin system flake";
 
+
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-unstable";
     nix-darwin.url = "github:LnL7/nix-darwin";
@@ -205,6 +206,9 @@
 
       # The platform the configuration will be used on.
       nixpkgs.hostPlatform = "aarch64-darwin";
+      
+      # Optimise storage on every build
+      nix.optimise.automatic;
     };
   in
   {
