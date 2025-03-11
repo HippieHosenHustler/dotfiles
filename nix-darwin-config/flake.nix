@@ -208,7 +208,7 @@
       nixpkgs.hostPlatform = "aarch64-darwin";
       
       # Optimise storage on every build
-      nix.optimise.automatic;
+      nix.optimise.automatic = true;
     };
   in
   {
