@@ -90,6 +90,7 @@
         casks = [
 	  "logi-options+"
 	  "arc"
+	  "intellij-idea"
           "raycast"
           "todoist"
           "aerospace"
@@ -115,7 +116,6 @@
           "insomnia"
           "steam"
           "xmind"
-          "webstorm"
           "spotify"
           "microsoft-teams"
         ];
