@@ -68,7 +68,6 @@
           pkgs.shortcat
           pkgs.stats
           pkgs.vscode
-          pkgs.openconnect_openssl
           pkgs.colima
           pkgs.cocoapods
           pkgs.flutter
@@ -86,6 +85,8 @@
         brews = [
           "mas"
           "displayplacer"
+	  "openssl"
+	  "pyenv"
         ];
         casks = [
 	  "logi-options+"
