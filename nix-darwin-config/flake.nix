@@ -21,7 +21,6 @@
         [
           pkgs.neovim
           pkgs.mkalias
-          pkgs.python3
           pkgs.bat
           pkgs.php83Packages.composer
           pkgs.deno
@@ -85,6 +84,7 @@
         brews = [
           "mas"
           "displayplacer"
+          "xz"
 	  "openssl"
 	  "pyenv"
         ];

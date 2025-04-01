@@ -69,7 +69,9 @@ typeset -U path
 path=(
 	"$N_PREFIX/bin"
 	"/opt/homebrew/opt/openjdk@17/bin"
-  "/run/current-system/sw/bin"
+  	"/run/current-system/sw/bin"
+	"/opt/homebrew/opt/openssl@3/bin"
+	"$HOME/.pyenv/shims"
 	$path
 
 )
