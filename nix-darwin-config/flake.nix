@@ -91,6 +91,7 @@
         casks = [
 	  "logi-options+"
 	  "arc"
+	  "cursor"
 	  "intellij-idea"
           "raycast"
           "todoist"
