@@ -23,6 +23,7 @@
           pkgs.bat
           pkgs.php83Packages.composer
           pkgs.deno
+          pkgs.neovim
           pkgs.docker
           pkgs.emscripten
           pkgs.eza
