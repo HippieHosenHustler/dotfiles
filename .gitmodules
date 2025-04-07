@@ -9,3 +9,6 @@
 [submodule "EurKEY-Mac"]
 	path = EurKEY-Mac
 	url = https://github.com/lbschenkel/EurKEY-Mac
+[submodule "nvim"]
+	path = nvim
+	url = https://github.com/HippieHosenHustler/kickstart.nvim
