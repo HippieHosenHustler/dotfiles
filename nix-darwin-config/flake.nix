@@ -19,7 +19,6 @@
       # $ nix-env -qaP | grep wget
       environment.systemPackages =
         [
-          pkgs.neovim
           pkgs.mkalias
           pkgs.bat
           pkgs.php83Packages.composer
@@ -91,6 +90,8 @@
         casks = [
 	  "logi-options+"
 	  "arc"
+	  "neo4j"
+	  "windsurf"
 	  "cursor"
 	  "intellij-idea"
           "raycast"

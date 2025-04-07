@@ -121,3 +121,6 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 
 # Added by LM Studio CLI (lms)
 export PATH="$PATH:/Users/edwinscharfe/.cache/lm-studio/bin"
+
+# Added by Windsurf
+export PATH="/Users/edwinscharfe/.codeium/windsurf/bin:$PATH"
