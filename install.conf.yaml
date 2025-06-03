@@ -15,10 +15,7 @@
       path: config/bat
     ~/.config/nvim:
       create: true
-      path: nvim
-    ~/.config/alacritty:
-      create: true
-      path: config/alacritty
+      path: config/nvim
     ~/.config/ghostty:
       create: true
       path: config/ghostty
