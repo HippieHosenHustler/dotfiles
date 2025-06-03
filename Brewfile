@@ -1,10 +1,7 @@
 tap "felixkratz/formulae"
-tap "koekeishiya/formulae"
 tap "maticzav/swift-graphql", "https://github.com/maticzav/swift-graphql.git"
 tap "mongodb/brew"
 tap "nikitabobko/tap"
-tap "pkgxdev/made"
-tap "spicetify/tap"
 # General-purpose data compression with high compression ratio
 brew "xz"
 # Cryptography and SSL/TLS Toolkit
