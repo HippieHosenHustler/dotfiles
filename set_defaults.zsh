@@ -26,6 +26,3 @@ defaults write com.apple.AppleMultitouchTrackpad "Clicking" -bool "true" # Enabl
 defaults write com.apple.dock "mru-spaces" -bool "false" # Do not reorganize spaces automatically
 defaults write NSGlobalDomain "AppleSpacesSwitchOnActivate" -bool "true" # When switching apps, go to space with active app
 killall Dock # Reset the Dock with the new settings
-
-# Set Wallpaper
-wallpaper ./wallpapers/Blue\ Cat.png
