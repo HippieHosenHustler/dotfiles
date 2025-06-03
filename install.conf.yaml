@@ -86,9 +86,3 @@
     stderr: true
     description: Set settings the way I like them
     quiet: true
-  - command: ./install_vscodium_extensions.zsh
-    stdin: true
-    stdout: true
-    stderr: true
-    description: Install extensions for vscodium
-    quiet: true
