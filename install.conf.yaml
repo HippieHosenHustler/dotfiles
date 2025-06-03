@@ -19,6 +19,9 @@
     ~/.config/alacritty:
       create: true
       path: config/alacritty
+    ~/.config/ghostty:
+      create: true
+      path: config/ghostty
     ~/Library/Application Support/tms:
       create: true
       path: tms

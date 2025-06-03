@@ -118,8 +118,6 @@ brew "mongodb/brew/mongodb-community"
 cask "1password"
 # AeroSpace is an i3-like tiling window manager for macOS
 cask "aerospace"
-# GPU-accelerated terminal emulator
-cask "alacritty"
 # Chromium based browser
 cask "arc"
 # 3D creation suite
@@ -149,6 +147,8 @@ cask "font-hack-nerd-font"
 cask "font-jetbrains-mono"
 cask "font-jetbrains-mono-nerd-font"
 cask "font-sf-pro"
+# Terminal emulator that uses platform-native UI and GPU acceleration
+cask "ghostty"
 # Desktop client for GitHub repositories
 cask "github"
 # Web browser
