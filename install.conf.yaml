@@ -19,22 +19,16 @@
     ~/.config/alacritty:
       create: true
       path: config/alacritty
-    ~/.ideavimrc:
-    ~/.local/bin/scripts:
+    ~/Library/Application\ Support/tmsu:
       create: true
-      path: bin/.local/scripts
+      path: tms
+    ~/.ideavimrc:
     ~/.tmux/plugins/tpm:
       create: true
       path: tmux/plugins/tpm
-    ~/.config/sketchybar:
-      create: true
-      path: config/sketchybar
     ~/.config/aerospace:
       create: true
       path: config/aerospace
-    /Library/Keyboard\ Layouts/EurKEY.icns: EurKEY-Mac/EurKEY.icns
-    /Library/Keyboard\ Layouts/EurKEY.keylayout: EurKEY-Mac/EurKEY.keylayout
-    /Library/Application Support/VSCodium/User/settings.json:
 
 
 - create:
