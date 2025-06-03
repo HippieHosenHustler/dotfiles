@@ -16,9 +16,6 @@
     ~/.config/nvim:
       create: true
       path: nvim
-    ~/.config/tmuxinator:
-      create: true
-      path: config/tmuxinator
     ~/.config/alacritty:
       create: true
       path: config/alacritty
