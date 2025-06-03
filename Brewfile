@@ -23,6 +23,8 @@ brew "composer"
 brew "deno"
 # Pack, ship and run any application as a lightweight container
 brew "docker"
+# Tool that bootstraps your dotfiles
+brew "dotbot"
 # .NET Core
 brew "dotnet"
 # LLVM bytecode to JavaScript compiler
@@ -225,3 +227,28 @@ mas "Pages", id: 409201541
 mas "Prime Video", id: 545519333
 mas "Streaks", id: 963034692
 mas "Xcode", id: 497799835
+vscode "catppuccin.catppuccin-vsc"
+vscode "chuckjonas.apex-pmd"
+vscode "dbaeumer.vscode-eslint"
+vscode "eamodio.gitlens"
+vscode "esbenp.prettier-vscode"
+vscode "financialforce.lana"
+vscode "jakeboone02.cypher-query-language"
+vscode "jock.svg"
+vscode "mechatroner.rainbow-csv"
+vscode "orta.vscode-jest"
+vscode "redhat.vscode-xml"
+vscode "salesforce.salesforce-vscode-slds"
+vscode "salesforce.salesforcedx-einstein-gpt"
+vscode "salesforce.salesforcedx-vscode"
+vscode "salesforce.salesforcedx-vscode-apex"
+vscode "salesforce.salesforcedx-vscode-apex-debugger"
+vscode "salesforce.salesforcedx-vscode-apex-replay-debugger"
+vscode "salesforce.salesforcedx-vscode-core"
+vscode "salesforce.salesforcedx-vscode-expanded"
+vscode "salesforce.salesforcedx-vscode-lightning"
+vscode "salesforce.salesforcedx-vscode-lwc"
+vscode "salesforce.salesforcedx-vscode-soql"
+vscode "salesforce.salesforcedx-vscode-visualforce"
+vscode "salesforce.sfdx-code-analyzer-vscode"
+vscode "vscodevim.vim"
