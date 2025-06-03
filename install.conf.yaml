@@ -19,7 +19,7 @@
     ~/.config/alacritty:
       create: true
       path: config/alacritty
-    ~/Library/Application\ Support/tmsu:
+    ~/Library/Application Support/tms:
       create: true
       path: tms
     ~/.ideavimrc:

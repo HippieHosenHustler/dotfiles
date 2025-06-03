@@ -1,0 +1,7 @@
+[[search_dirs]]
+path = "/Users/edwinscharfe/Projects"
+depth = 10
+
+[[search_dirs]]
+path = "/Users/edwinscharfe/.dotfiles"
+depth = 10

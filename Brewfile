@@ -90,6 +90,8 @@ brew "suite-sparse"
 brew "tldr"
 # Terminal multiplexer
 brew "tmux"
+# Tool for opening git repositories as tmux sessions
+brew "tmux-sessionizer"
 # CLI tool that moves files or folder to the trash
 brew "trash"
 # Display directories as trees (with optional color/HTML output)
