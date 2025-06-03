@@ -8,8 +8,6 @@
     ~/.zshrc: zshrc
     ~/.zshenv:
     ~/.gitconfig:
-    ~/.skhdrc:
-    ~/.yabairc:
     ~/.tmux.conf:
     ~/.p10k.zsh:
     ~/.config/bat:
