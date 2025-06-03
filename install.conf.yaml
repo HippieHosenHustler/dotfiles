@@ -49,7 +49,6 @@
     - ~/Projects
 
 - shell:
-  - [git submodule update --init --recursive, Installing submodules]
   - command: ./setup_zsh.zsh
     stdin: true
     stdout: true
@@ -61,24 +60,6 @@
     stdout: true
     stderr: true
     description: Install homebrew
-    quiet: true
-  - command: ./setup_node.zsh
-    stdin: true
-    stdout: true
-    stderr: true
-    description: Setup Node
-    quiet: true
-  - command: ./setup_sfdx.zsh
-    stdin: true
-    stdout: true
-    stderr: true
-    description: Setup sfdx
-    quiet: true
-  - command: ./setup_rust.zsh
-    stdin: true
-    stdout: true
-    stderr: true
-    description: Setup sfdx
     quiet: true
   - command: ./set_defaults.zsh
     stdin: true
