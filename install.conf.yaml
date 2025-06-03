@@ -19,9 +19,6 @@
     ~/.config/alacritty:
       create: true
       path: config/alacritty
-    ~/.config/spicetify:
-      create: true
-      path: config/spicetify
     ~/.ideavimrc:
     ~/.local/bin/scripts:
       create: true
