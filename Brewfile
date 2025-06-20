@@ -28,6 +28,8 @@ brew "dotnet"
 brew "emscripten"
 # Modern, maintained replacement for ls
 brew "eza"
+# Simple, fast and user-friendly alternative to find
+brew "fd"
 # Play, record, convert, and stream audio and video
 brew "ffmpeg"
 # Command-line fuzzy finder written in Go
@@ -116,6 +118,8 @@ brew "maticzav/swift-graphql/swiftgraphql"
 brew "mongodb/brew/mongodb-community"
 # Password manager that keeps all passwords secure behind one password
 cask "1password"
+# Command-line interface for 1Password
+cask "1password-cli"
 # AeroSpace is an i3-like tiling window manager for macOS
 cask "aerospace"
 # Chromium based browser
@@ -214,6 +218,7 @@ mas "Dropover", id: 1355679052
 mas "GarageBand", id: 682658836
 mas "iMovie", id: 408981434
 mas "Keynote", id: 409183694
+mas "Kindle", id: 302584613
 mas "Microsoft Excel", id: 462058435
 mas "Microsoft OneNote", id: 784801555
 mas "Microsoft Outlook", id: 985367838
