@@ -14,6 +14,8 @@ brew "cargo-watch"
 brew "certifi"
 # Console Matrix
 brew "cmatrix"
+# Container runtimes on MacOS (and Linux) with minimal setup
+brew "colima", restart_service: :changed
 # Dependency Manager for PHP
 brew "composer"
 # Secure runtime for JavaScript and TypeScript
@@ -30,7 +32,7 @@ brew "emscripten"
 brew "eza"
 # Simple, fast and user-friendly alternative to find
 brew "fd"
-# Play, record, convert, and stream audio and video
+# Play, record, convert, and stream select audio and video codecs
 brew "ffmpeg"
 # Command-line fuzzy finder written in Go
 brew "fzf"
@@ -44,6 +46,8 @@ brew "httpie"
 brew "jpeg"
 # Lightweight and flexible command-line JSON processor
 brew "jq"
+# Lazier way to manage everything docker
+brew "lazydocker"
 # Simple terminal UI for git commands
 brew "lazygit"
 # Rainbows and unicorns in your console!
@@ -84,6 +88,8 @@ brew "ripgrep"
 brew "rust-analyzer"
 # Rust toolchain installer
 brew "rustup"
+# Command-line toolkit for Salesforce development
+brew "sf"
 # Cross-shell prompt for astronauts
 brew "starship"
 # Suite of Sparse Matrix Software
@@ -121,21 +127,33 @@ cask "1password"
 # Command-line interface for 1Password
 cask "1password-cli"
 # AeroSpace is an i3-like tiling window manager for macOS
-cask "aerospace"
+cask "nikitabobko/tap/aerospace"
+# Allows connection to a computer remotely
+cask "anydesk"
 # Chromium based browser
 cask "arc"
+# Tool to flash OS images to SD cards & USB drives
+cask "balenaetcher"
 # 3D creation suite
 cask "blender"
+# OpenAI's official ChatGPT desktop app
+cask "chatgpt"
 # Managed desktop virtualization solution
 cask "citrix-workspace"
+# Terminal-based AI coding assistant
+cask "claude-code"
 # Screen capturing tool
 cask "cleanshot"
 # Downloads videos and audio from websites
 cask "clipgrab"
+# Node-based image, video and audio generator
+cask "comfyui"
 # Write, edit, and chat about your code with AI
 cask "cursor"
 # Voice and text chat software
 cask "discord"
+# App to build and share containerised applications and microservices
+cask "docker-desktop"
 # Tool to hide status bar icons
 cask "dozer"
 # Online diagram software
@@ -157,14 +175,16 @@ cask "ghostty"
 cask "github"
 # Web browser
 cask "google-chrome"
+# Open Source Multimedia Framework
+cask "gstreamer-runtime"
+# Game launcher
+cask "heroic"
 # Free and open-source media player
 cask "iina"
 # Tool to optimise images to a smaller size
 cask "imageoptim"
 # HTTP and GraphQL Client
 cask "insomnia"
-# Software for Logitech devices
-cask "logi-options+"
 # App for designing HTML5 Scalable Vector Graphics
 cask "macsvg"
 # Shows the next meeting in the menu bar
@@ -178,15 +198,21 @@ cask "miro"
 # CSV editor
 cask "modern-csv"
 # Developer IDE or Management Environment for Neo4j instances
-cask "neo4j"
+cask "neo4j-desktop"
 # VPN client for secure internet access and private browsing
 cask "nordvpn"
 # Knowledge base that works on top of a local folder of plain text Markdown files
 cask "obsidian"
+# Client for Proton Mail and Proton Calendar
+cask "proton-mail"
+# Imaging utility to install operating systems to a microSD card
+cask "raspberry-pi-imager"
 # Control your tools with a few keystrokes
 cask "raycast"
 # App that enables mouse-free UI interaction
 cask "shortcat"
+# Web browser
+cask "sigmaos"
 # Instant messaging application focusing on security
 cask "signal"
 # Team communication and collaboration software
@@ -199,8 +225,10 @@ cask "stats"
 cask "steam"
 # General-purpose text editor
 cask "textmate"
+# Customizable email client
+cask "thunderbird"
 # To-do list
-cask "todoist"
+cask "todoist-app"
 # Bit torrent client
 cask "vuze"
 # Native desktop client for WhatsApp
@@ -213,9 +241,12 @@ cask "wine-stable"
 cask "xmind"
 # Gecko based web browser
 cask "zen"
+# Video communication and virtual meeting platform
+cask "zoom"
 mas "DevCleaner", id: 1388020431
 mas "Dropover", id: 1355679052
 mas "GarageBand", id: 682658836
+mas "Goodnotes", id: 1444383602
 mas "iMovie", id: 408981434
 mas "Keynote", id: 409183694
 mas "Kindle", id: 302584613
@@ -237,22 +268,37 @@ vscode "dbaeumer.vscode-eslint"
 vscode "eamodio.gitlens"
 vscode "esbenp.prettier-vscode"
 vscode "financialforce.lana"
+vscode "inlang.vs-code-extension"
 vscode "jakeboone02.cypher-query-language"
 vscode "jock.svg"
 vscode "mechatroner.rainbow-csv"
+vscode "ms-azuretools.vscode-containers"
+vscode "ms-azuretools.vscode-docker"
 vscode "orta.vscode-jest"
 vscode "redhat.vscode-xml"
+vscode "salesforce.apex-language-server-extension"
 vscode "salesforce.salesforce-vscode-slds"
 vscode "salesforce.salesforcedx-einstein-gpt"
 vscode "salesforce.salesforcedx-vscode"
 vscode "salesforce.salesforcedx-vscode-apex"
 vscode "salesforce.salesforcedx-vscode-apex-debugger"
+vscode "salesforce.salesforcedx-vscode-apex-oas"
 vscode "salesforce.salesforcedx-vscode-apex-replay-debugger"
+vscode "salesforce.salesforcedx-vscode-apex-testing"
 vscode "salesforce.salesforcedx-vscode-core"
 vscode "salesforce.salesforcedx-vscode-expanded"
 vscode "salesforce.salesforcedx-vscode-lightning"
 vscode "salesforce.salesforcedx-vscode-lwc"
+vscode "salesforce.salesforcedx-vscode-org"
+vscode "salesforce.salesforcedx-vscode-services"
 vscode "salesforce.salesforcedx-vscode-soql"
 vscode "salesforce.salesforcedx-vscode-visualforce"
 vscode "salesforce.sfdx-code-analyzer-vscode"
+vscode "svelte.svelte-vscode"
 vscode "vscodevim.vim"
+cargo "aoc"
+cargo "bacon"
+cargo "cargo-leptos"
+cargo "fd-find"
+cargo "trunk"
+cargo "tsm"
