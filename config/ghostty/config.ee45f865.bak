@@ -5,4 +5,3 @@ background-opacity = 0.9
 macos-titlebar-style = hidden
 macos-non-native-fullscreen = true
 confirm-close-surface = false
-keybind = shift+enter=text:\x1b\r
