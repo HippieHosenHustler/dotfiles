@@ -3,9 +3,9 @@
 set -e
 
 CONFIG="install.conf.yaml"
-DOTBOT_DIR="dotbot"
+DOTBOT_DIR="/opt/homebrew/bin/dotbot"
 
-DOTBOT_BIN="bin/dotbot"
+DOTBOT_BIN="/opt/homebrew/bin/dotbot"
 BASEDIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 cd "${BASEDIR}"
