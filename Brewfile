@@ -252,7 +252,6 @@ mas "Numbers", id: 409203825
 mas "OneDrive", id: 823766827
 mas "Pages", id: 409201541
 mas "Prime Video", id: 545519333
-mas "Streaks", id: 963034692
 mas "Xcode", id: 497799835
 vscode "catppuccin.catppuccin-vsc"
 vscode "chuckjonas.apex-pmd"
