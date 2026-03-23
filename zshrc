@@ -63,6 +63,7 @@ alias sfpushp='sf project deploy preview'
 alias sfswitch='sf config set target-org'
 alias grep='rg'
 alias nixup='nix flake update && darwin-rebuild switch --flake ~/.dotfiles/nix-darwin-config#air'
+alias g='lazygit'
 
 # Add Locations to $path array
 typeset -U path
