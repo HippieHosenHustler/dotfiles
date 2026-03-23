@@ -132,16 +132,12 @@ cask "ableton-live-suite@10"
 cask "nikitabobko/tap/aerospace"
 # Allows connection to a computer remotely
 cask "anydesk"
-# Chromium based browser
-cask "arc"
 # Tool to flash OS images to SD cards & USB drives
 cask "balenaetcher"
 # 3D creation suite
 cask "blender"
 # OpenAI's official ChatGPT desktop app
 cask "chatgpt"
-# Managed desktop virtualization solution
-cask "citrix-workspace"
 # Terminal-based AI coding assistant
 cask "claude-code"
 # Screen capturing tool
@@ -189,8 +185,6 @@ cask "imageoptim"
 cask "insomnia"
 # App for designing HTML5 Scalable Vector Graphics
 cask "macsvg"
-# Shows the next meeting in the menu bar
-cask "meetingbar"
 # Provides updates to various Microsoft products
 cask "microsoft-auto-update"
 # Meet, chat, call, and collaborate in just one place
@@ -217,8 +211,6 @@ cask "shortcat"
 cask "sigmaos"
 # Instant messaging application focusing on security
 cask "signal"
-# Team communication and collaboration software
-cask "slack"
 # Music streaming service
 cask "spotify"
 # System monitor for the menu bar
@@ -227,8 +219,6 @@ cask "stats"
 cask "steam"
 # General-purpose text editor
 cask "textmate"
-# Customizable email client
-cask "thunderbird"
 # To-do list
 cask "todoist-app"
 # Bit torrent client
