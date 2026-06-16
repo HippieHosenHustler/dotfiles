@@ -1,9 +1,8 @@
+tap "anomalyco/tap"
 tap "felixkratz/formulae"
 tap "maticzav/swift-graphql", "https://github.com/maticzav/swift-graphql.git"
 tap "mongodb/brew"
 tap "nikitabobko/tap"
-# General-purpose data compression with high compression ratio
-brew "xz"
 # Cryptography and SSL/TLS Toolkit
 brew "openssl@3"
 # Clone of cat(1) with syntax highlighting and Git integration
@@ -16,12 +15,14 @@ brew "certifi"
 brew "cmatrix"
 # Container runtimes on MacOS (and Linux) with minimal setup
 brew "colima", restart_service: :changed
+# General-purpose data compression with high compression ratio
+brew "xz"
 # Dependency Manager for PHP
 brew "composer"
 # Secure runtime for JavaScript and TypeScript
 brew "deno"
 # Pack, ship and run any application as a lightweight container
-brew "docker"
+brew "docker", link: false
 # Tool that bootstraps your dotfiles
 brew "dotbot"
 # .NET Core
@@ -64,6 +65,10 @@ brew "n"
 brew "neo4j", link: false
 # Ambitious Vim-fork focused on extensibility and agility
 brew "neovim"
+# Classic snake game with textual interface
+brew "nsnake"
+# Create, run, and share large language models (LLMs)
+brew "ollama", restart_service: :changed
 # Development kit for the Java programming language
 brew "openjdk@11"
 # Development kit for the Java programming language
@@ -75,7 +80,7 @@ brew "pipx"
 # Draw UML diagrams
 brew "plantuml"
 # Object-relational database system
-brew "postgresql@14", restart_service: :changed
+brew "postgresql@14"
 # Python version management
 brew "pyenv"
 # GNOME Python bindings (based on GObject Introspection)
@@ -94,6 +99,8 @@ brew "sf"
 brew "starship"
 # Suite of Sparse Matrix Software
 brew "suite-sparse"
+# General purpose fuzzy finder TUI
+brew "television"
 # Simplified and community-driven man pages
 brew "tldr"
 # Terminal multiplexer
@@ -114,38 +121,34 @@ brew "yarn"
 brew "yazi"
 # Feature-rich command-line audio/video downloader
 brew "yt-dlp"
+# Pluggable terminal workspace, with terminal multiplexer as the base feature
+brew "zellij"
 # Shell extension to navigate your filesystem faster
 brew "zoxide"
 # UNIX shell (command interpreter)
 brew "zsh"
-# Code generator for SwiftGraphQL library
-brew "maticzav/swift-graphql/swiftgraphql"
-# High-performance, schema-free, document-oriented database
-brew "mongodb/brew/mongodb-community"
 # Password manager that keeps all passwords secure behind one password
 cask "1password"
-# Command-line interface for 1Password
-cask "1password-cli"
-# Sound and music editor
-cask "ableton-live-suite@10"
 # AeroSpace is an i3-like tiling window manager for macOS
 cask "nikitabobko/tap/aerospace"
+# Browse, search and analyse your past AI coding sessions
+cask "agentsview"
 # Allows connection to a computer remotely
 cask "anydesk"
 # Tool to flash OS images to SD cards & USB drives
 cask "balenaetcher"
 # 3D creation suite
-cask "blender"
-# OpenAI's official ChatGPT desktop app
-cask "chatgpt"
+cask "blender@lts"
+# Anthropic's official Claude AI desktop app
+cask "claude"
 # Terminal-based AI coding assistant
 cask "claude-code"
 # Screen capturing tool
 cask "cleanshot"
 # Downloads videos and audio from websites
 cask "clipgrab"
-# Node-based image, video and audio generator
-cask "comfyui"
+# OpenAI's coding agent that runs in your terminal
+cask "codex"
 # Write, edit, and chat about your code with AI
 cask "cursor"
 # Voice and text chat software
@@ -169,20 +172,16 @@ cask "font-jetbrains-mono-nerd-font"
 cask "font-sf-pro"
 # Terminal emulator that uses platform-native UI and GPU acceleration
 cask "ghostty"
-# Desktop client for GitHub repositories
-cask "github"
 # Web browser
 cask "google-chrome"
 # Open Source Multimedia Framework
 cask "gstreamer-runtime"
-# Game launcher
-cask "heroic"
 # Free and open-source media player
 cask "iina"
-# Tool to optimise images to a smaller size
-cask "imageoptim"
 # HTTP and GraphQL Client
 cask "insomnia"
+# Software for Logitech devices
+cask "logi-options+"
 # App for designing HTML5 Scalable Vector Graphics
 cask "macsvg"
 # Provides updates to various Microsoft products
@@ -191,8 +190,6 @@ cask "microsoft-auto-update"
 cask "microsoft-teams"
 # Online collaborative whiteboard platform
 cask "miro"
-# CSV editor
-cask "modern-csv"
 # Developer IDE or Management Environment for Neo4j instances
 cask "neo4j-desktop"
 # VPN client for secure internet access and private browsing
@@ -205,12 +202,12 @@ cask "proton-mail"
 cask "raspberry-pi-imager"
 # Control your tools with a few keystrokes
 cask "raycast"
-# App that enables mouse-free UI interaction
-cask "shortcat"
 # Web browser
 cask "sigmaos"
 # Instant messaging application focusing on security
 cask "signal"
+# Application to control your PlayStation 4 or PlayStation 5
+cask "sony-ps-remote-play"
 # Music streaming service
 cask "spotify"
 # System monitor for the menu bar
@@ -221,6 +218,12 @@ cask "steam"
 cask "textmate"
 # To-do list
 cask "todoist-app"
+# Google Chromium, sans integration with Google
+cask "ungoogled-chromium"
+# Dynamic Island-style notifications for Claude Code CLI sessions
+cask "vibe-notch"
+# Binary releases of VS Code without MS branding/telemetry/licensing
+cask "vscodium"
 # Bit torrent client
 cask "vuze"
 # Native desktop client for WhatsApp
@@ -235,44 +238,37 @@ cask "xmind"
 cask "zen"
 # Video communication and virtual meeting platform
 cask "zoom"
-mas "DevCleaner", id: 1388020431
-mas "Dropover", id: 1355679052
-mas "GarageBand", id: 682658836
-mas "Goodnotes", id: 1444383602
-mas "iMovie", id: 408981434
-mas "Keynote", id: 409183694
-mas "Kindle", id: 302584613
-mas "Microsoft Excel", id: 462058435
-mas "Microsoft OneNote", id: 784801555
-mas "Microsoft Outlook", id: 985367838
-mas "Microsoft PowerPoint", id: 462062816
-mas "Microsoft To Do", id: 1274495053
-mas "Microsoft Word", id: 462054704
-mas "Numbers", id: 409203825
-mas "OneDrive", id: 823766827
-mas "Pages", id: 409201541
-mas "Prime Video", id: 545519333
-mas "Xcode", id: 497799835
+vscode "anthropic.claude-code"
+vscode "bierner.markdown-mermaid"
+vscode "bierner.markdown-preview-github-styles"
 vscode "catppuccin.catppuccin-vsc"
-vscode "chuckjonas.apex-pmd"
+vscode "catppuccin.catppuccin-vsc-icons"
+vscode "davidanson.vscode-markdownlint"
 vscode "dbaeumer.vscode-eslint"
 vscode "eamodio.gitlens"
 vscode "esbenp.prettier-vscode"
 vscode "financialforce.lana"
-vscode "inlang.vs-code-extension"
-vscode "jakeboone02.cypher-query-language"
-vscode "jock.svg"
+vscode "graphql.vscode-graphql-syntax"
+vscode "hbenl.test-adapter-converter"
+vscode "hbenl.vscode-test-explorer"
 vscode "mechatroner.rainbow-csv"
-vscode "ms-azuretools.vscode-containers"
-vscode "ms-azuretools.vscode-docker"
-vscode "orta.vscode-jest"
+vscode "mindsquare.orgscout"
+vscode "ms-vscode.test-adapter-converter"
+vscode "ms-vscode.theme-markdownkit"
+vscode "pinage404.rust-extension-pack"
+vscode "pmd.apex-pmd"
 vscode "redhat.vscode-xml"
+vscode "rust-lang.rust-analyzer"
+vscode "salesforce.agent-script-language-client"
 vscode "salesforce.apex-language-server-extension"
 vscode "salesforce.salesforce-vscode-slds"
 vscode "salesforce.salesforcedx-einstein-gpt"
+vscode "salesforce.salesforcedx-metadata-visualizer-vscode"
 vscode "salesforce.salesforcedx-vscode"
+vscode "salesforce.salesforcedx-vscode-agents"
 vscode "salesforce.salesforcedx-vscode-apex"
 vscode "salesforce.salesforcedx-vscode-apex-debugger"
+vscode "salesforce.salesforcedx-vscode-apex-log"
 vscode "salesforce.salesforcedx-vscode-apex-oas"
 vscode "salesforce.salesforcedx-vscode-apex-replay-debugger"
 vscode "salesforce.salesforcedx-vscode-apex-testing"
@@ -280,16 +276,22 @@ vscode "salesforce.salesforcedx-vscode-core"
 vscode "salesforce.salesforcedx-vscode-expanded"
 vscode "salesforce.salesforcedx-vscode-lightning"
 vscode "salesforce.salesforcedx-vscode-lwc"
+vscode "salesforce.salesforcedx-vscode-metadata"
 vscode "salesforce.salesforcedx-vscode-org"
+vscode "salesforce.salesforcedx-vscode-org-browser"
 vscode "salesforce.salesforcedx-vscode-services"
 vscode "salesforce.salesforcedx-vscode-soql"
+vscode "salesforce.salesforcedx-vscode-ui-preview"
 vscode "salesforce.salesforcedx-vscode-visualforce"
 vscode "salesforce.sfdx-code-analyzer-vscode"
-vscode "svelte.svelte-vscode"
+vscode "swellaby.vscode-rust-test-adapter"
+vscode "tamasfe.even-better-toml"
+vscode "tomoki1207.pdf"
 vscode "vscodevim.vim"
-cargo "aoc"
-cargo "bacon"
-cargo "cargo-leptos"
-cargo "fd-find"
-cargo "trunk"
-cargo "tsm"
+vscode "yzane.markdown-pdf"
+vscode "yzhang.markdown-all-in-one"
+npm "@hubspot/cli"
+npm "@nestjs/cli"
+npm "@salesforce/cli"
+npm "twenty-sdk"
+npm "vlocity"
