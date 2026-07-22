@@ -49,7 +49,7 @@ export CHROME_EXECUTABLE="/run/current-system/sw/bin/google-chrome-stable"
 alias ls='eza -lah --git'
 alias exa='exa -lah --git'
 alias cat='bat'
-alias brewdump='brew bundle dump --force --describe'
+alias brewdump='brew bundle dump --force '
 alias trail='<<<${(F)path}'
 alias rm=trash
 alias vim='nvim'
@@ -125,3 +125,6 @@ export PATH="$PATH:/Users/edwinscharfe/.cache/lm-studio/bin"
 
 # Added by Windsurf
 export PATH="/Users/edwinscharfe/.codeium/windsurf/bin:$PATH"
+
+# npm-global (npm prefix) vor Homebrew/n — corepack, pnpm, nest, sf etc.
+export PATH="$HOME/.npm-global/bin:$PATH"

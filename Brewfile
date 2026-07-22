@@ -1,7 +1,7 @@
 tap "anomalyco/tap"
 tap "felixkratz/formulae"
 tap "maticzav/swift-graphql", "https://github.com/maticzav/swift-graphql.git"
-tap "mongodb/brew"
+tap "mongodb/brew", trusted: true
 tap "nikitabobko/tap"
 # Cryptography and SSL/TLS Toolkit
 brew "openssl@3"
@@ -62,7 +62,7 @@ brew "mas"
 # Node version management
 brew "n"
 # Robust (fully ACID) transactional property graph database
-brew "neo4j", link: false
+brew "neo4j"
 # Ambitious Vim-fork focused on extensibility and agility
 brew "neovim"
 # Classic snake game with textual interface
@@ -95,10 +95,14 @@ brew "rust-analyzer"
 brew "rustup"
 # Command-line toolkit for Salesforce development
 brew "sf"
+# Toolkit to help you get started with Spec-Driven Development
+brew "specify"
 # Cross-shell prompt for astronauts
 brew "starship"
 # Suite of Sparse Matrix Software
 brew "suite-sparse"
+# Command-line tool to interact with Gitea servers
+brew "tea"
 # General purpose fuzzy finder TUI
 brew "television"
 # Simplified and community-driven man pages
@@ -127,10 +131,14 @@ brew "zellij"
 brew "zoxide"
 # UNIX shell (command interpreter)
 brew "zsh"
+# Code generator for SwiftGraphQL library
+brew "maticzav/swift-graphql/swiftgraphql"
+# High-performance, schema-free, document-oriented database
+brew "mongodb/brew/mongodb-community", trusted: true
 # Password manager that keeps all passwords secure behind one password
 cask "1password"
 # AeroSpace is an i3-like tiling window manager for macOS
-cask "nikitabobko/tap/aerospace"
+cask "nikitabobko/tap/aerospace", trusted: true
 # Browse, search and analyse your past AI coding sessions
 cask "agentsview"
 # Allows connection to a computer remotely
@@ -147,18 +155,19 @@ cask "claude-code"
 cask "cleanshot"
 # Downloads videos and audio from websites
 cask "clipgrab"
+# AI code review CLI
+cask "coderabbit"
 # OpenAI's coding agent that runs in your terminal
 cask "codex"
-# Write, edit, and chat about your code with AI
-cask "cursor"
 # Voice and text chat software
 cask "discord"
 # App to build and share containerised applications and microservices
 cask "docker-desktop"
-# Tool to hide status bar icons
 cask "dozer"
 # Online diagram software
 cask "drawio"
+# Matrix collaboration client
+cask "element"
 # Control your Elgato key lights
 cask "elgato-control-center"
 # Launcher for *Epic Games* games
@@ -206,8 +215,6 @@ cask "raycast"
 cask "sigmaos"
 # Instant messaging application focusing on security
 cask "signal"
-# Application to control your PlayStation 4 or PlayStation 5
-cask "sony-ps-remote-play"
 # Music streaming service
 cask "spotify"
 # System monitor for the menu bar
@@ -216,6 +223,8 @@ cask "stats"
 cask "steam"
 # General-purpose text editor
 cask "textmate"
+# Web browser
+cask "thebrowsercompany-dia"
 # To-do list
 cask "todoist-app"
 # Google Chromium, sans integration with Google
@@ -238,6 +247,24 @@ cask "xmind"
 cask "zen"
 # Video communication and virtual meeting platform
 cask "zoom"
+mas "DevCleaner", id: 1388020431
+mas "Dropover", id: 1355679052
+mas "GarageBand", id: 682658836
+mas "Goodnotes", id: 1444383602
+mas "iMovie", id: 408981434
+mas "Keynote", id: 409183694
+mas "Kindle", id: 302584613
+mas "Microsoft Excel", id: 462058435
+mas "Microsoft OneNote", id: 784801555
+mas "Microsoft Outlook", id: 985367838
+mas "Microsoft PowerPoint", id: 462062816
+mas "Microsoft To Do", id: 1274495053
+mas "Microsoft Word", id: 462054704
+mas "Numbers", id: 409203825
+mas "OneDrive", id: 823766827
+mas "Pages", id: 409201541
+mas "Prime Video", id: 545519333
+mas "Xcode", id: 497799835
 vscode "anthropic.claude-code"
 vscode "bierner.markdown-mermaid"
 vscode "bierner.markdown-preview-github-styles"
@@ -293,5 +320,6 @@ vscode "yzhang.markdown-all-in-one"
 npm "@hubspot/cli"
 npm "@nestjs/cli"
 npm "@salesforce/cli"
+npm "corepack"
 npm "twenty-sdk"
 npm "vlocity"
