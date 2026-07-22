@@ -22,3 +22,8 @@
 	helper = !/opt/homebrew/bin/gh auth git-credential
 [credential]
 	helper = osxkeychain
+[credential "https://mindcode.mindsquare.de"]
+	helper = 
+	helper = !tea login helper
+[coderabbit]
+	machineId = cli/99647004b98145caa461cd8da16c0ca5
