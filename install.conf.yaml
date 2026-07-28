@@ -29,6 +29,10 @@
     ~/.config/aerospace:
       create: true
       path: config/aerospace
+    # herdr writes logs + socket into ~/.config/herdr, so link only the file
+    ~/.config/herdr/config.toml:
+      create: true
+      path: config/herdr/config.toml
 
 
 - create:

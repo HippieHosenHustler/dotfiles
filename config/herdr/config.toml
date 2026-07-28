@@ -1,0 +1,72 @@
+# herdr configuration — ~/.config/herdr/config.toml (symlinked from ~/.dotfiles)
+# Validate with: herdr config check
+# Reload live:   herdr server reload-config   (or prefix+shift+r)
+# Full default reference: herdr --default-config
+
+onboarding = false
+
+[theme]
+name = "catppuccin"
+# Follow the terminal's light/dark appearance
+auto_switch = true
+dark_name = "catppuccin"
+light_name = "catppuccin-latte"
+
+[terminal]
+# New panes/tabs/workspaces inherit the source pane's cwd
+# (same as tmux's `-c "#{pane_current_path}"`)
+new_cwd = "follow"
+
+[keys]
+# tmux muscle memory: prefix on ctrl+space
+prefix = "ctrl+space"
+
+# Tabs ≈ tmux windows: w = new, n = rename (as in tmux.conf)
+new_tab = "prefix+w"
+rename_tab = "prefix+n"
+# n is taken by rename, so cycle tabs with tab / p
+next_tab = "prefix+tab"
+cycle_pane_next = ""
+cycle_pane_previous = ""
+
+# Workspaces ≈ tmux sessions: picker on s (like tmux choose-session)
+workspace_picker = "prefix+s"
+settings = "prefix+comma"
+
+# Splits: v = side-by-side (like tmux), minus = stacked.
+# Pane focus stays on vim-style prefix+h/j/k/l (herdr default).
+split_vertical = "prefix+v"
+split_horizontal = "prefix+minus"
+
+# Worktrees: shift+t = new (t for tree), shift+o = open existing
+new_worktree = "prefix+shift+t"
+open_worktree = "prefix+shift+o"
+
+# Project sessionizer (port of tmux_sessionizer), same key as tmux: prefix+f
+[[keys.command]]
+key = "prefix+f"
+type = "popup"
+command = "~/.dotfiles/herdr_sessionizer.zsh"
+width = "70%"
+height = "70%"
+
+# lazygit overlay in the current pane's repo
+[[keys.command]]
+key = "prefix+shift+g"
+type = "popup"
+command = "lazygit"
+width = "85%"
+height = "85%"
+
+[ui.toast]
+# macOS desktop notifications when a background agent finishes / needs input
+delivery = "system"
+delay_seconds = 1
+
+[ui.sound]
+# Sounds for agent state changes in background workspaces
+enabled = true
+
+[session]
+# Resume agent conversations (Claude Code etc.) after a server restart
+resume_agents_on_restore = true
