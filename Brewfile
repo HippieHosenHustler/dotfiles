@@ -5,6 +5,10 @@ tap "mongodb/brew", trusted: true
 tap "nikitabobko/tap"
 # Cryptography and SSL/TLS Toolkit
 brew "openssl@3"
+# General-purpose data compression with high compression ratio
+brew "xz"
+# Microsoft Azure CLI 2.0
+brew "azure-cli"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
 # Watches over your Cargo project's source
@@ -15,8 +19,6 @@ brew "certifi"
 brew "cmatrix"
 # Container runtimes on MacOS (and Linux) with minimal setup
 brew "colima", restart_service: :changed
-# General-purpose data compression with high compression ratio
-brew "xz"
 # Dependency Manager for PHP
 brew "composer"
 # Secure runtime for JavaScript and TypeScript
