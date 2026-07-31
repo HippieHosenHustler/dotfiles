@@ -50,6 +50,14 @@ command = "~/.dotfiles/herdr_sessionizer.zsh"
 width = "70%"
 height = "70%"
 
+# Sessionizer for an arbitrary directory (prompts for a path)
+[[keys.command]]
+key = "prefix+shift+f"
+type = "popup"
+command = "~/.dotfiles/herdr_sessionizer.zsh --prompt"
+width = "70%"
+height = "70%"
+
 # lazygit overlay in the current pane's repo
 [[keys.command]]
 key = "prefix+shift+g"
