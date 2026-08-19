@@ -15,8 +15,6 @@ brew "bat"
 brew "cargo-watch"
 # Mozilla CA bundle for Python
 brew "certifi"
-# Console Matrix
-brew "cmatrix"
 # Container runtimes on MacOS (and Linux) with minimal setup
 brew "colima", restart_service: :changed
 # Dependency Manager for PHP
@@ -55,8 +53,6 @@ brew "jq"
 brew "lazydocker"
 # Simple terminal UI for git commands
 brew "lazygit"
-# Rainbows and unicorns in your console!
-brew "lolcat"
 # OpenResty's Branch of LuaJIT 2
 brew "luajit-openresty"
 # Package manager for the Lua programming language
@@ -71,10 +67,6 @@ brew "neo4j"
 brew "neovim"
 # Classic snake game with textual interface
 brew "nsnake"
-# Create, run, and share large language models (LLMs)
-brew "ollama", restart_service: :changed
-# Development kit for the Java programming language
-brew "openjdk@11"
 # Development kit for the Java programming language
 brew "openjdk@17"
 # Swiss-army knife of markup format conversion
@@ -83,8 +75,6 @@ brew "pandoc"
 brew "pipx"
 # Draw UML diagrams
 brew "plantuml"
-# Object-relational database system
-brew "postgresql@14"
 # Python version management
 brew "pyenv"
 # GNOME Python bindings (based on GObject Introspection)
@@ -99,8 +89,6 @@ brew "rust-analyzer"
 brew "rustup"
 # Command-line toolkit for Salesforce development
 brew "sf"
-# Toolkit to help you get started with Spec-Driven Development
-brew "specify"
 # Cross-shell prompt for astronauts
 brew "starship"
 # Suite of Sparse Matrix Software
@@ -111,10 +99,6 @@ brew "tea"
 brew "television"
 # Simplified and community-driven man pages
 brew "tldr"
-# Terminal multiplexer
-brew "tmux"
-# Tool for opening git repositories as tmux sessions
-brew "tmux-sessionizer"
 # CLI tool that moves files or folder to the trash
 brew "trash"
 # Display directories as trees (with optional color/HTML output)
@@ -129,8 +113,6 @@ brew "yarn"
 brew "yazi"
 # Feature-rich command-line audio/video downloader
 brew "yt-dlp"
-# Pluggable terminal workspace, with terminal multiplexer as the base feature
-brew "zellij"
 # Shell extension to navigate your filesystem faster
 brew "zoxide"
 # UNIX shell (command interpreter)
@@ -170,8 +152,6 @@ cask "docker-desktop"
 cask "dozer"
 # Online diagram software
 cask "drawio"
-# Matrix collaboration client
-cask "element"
 # Control your Elgato key lights
 cask "elgato-control-center"
 # Launcher for *Epic Games* games
@@ -215,8 +195,6 @@ cask "proton-mail"
 cask "raspberry-pi-imager"
 # Control your tools with a few keystrokes
 cask "raycast"
-# Web browser
-cask "sigmaos"
 # Instant messaging application focusing on security
 cask "signal"
 # Music streaming service
@@ -241,16 +219,8 @@ cask "vscodium"
 cask "vuze"
 # Native desktop client for WhatsApp
 cask "whatsapp"
-# Wine wrapper built with SwiftUI
-cask "whisky"
-# Compatibility layer to run Windows applications
-cask "wine-stable"
 # Mind mapping and brainstorming tool
 cask "xmind"
-# Gecko based web browser
-cask "zen"
-# Video communication and virtual meeting platform
-cask "zoom"
 mas "DevCleaner", id: 1388020431
 mas "Dropover", id: 1355679052
 mas "GarageBand", id: 682658836
